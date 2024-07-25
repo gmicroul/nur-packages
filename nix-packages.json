@@ -309,6 +309,11 @@
     "pname": "clang_dev_env_fhs-shell",
     "version": ""
   },
+  "legacyPackages.x86_64-linux.clash-nyanpasu": {
+    "description": "Clash GUI based on tauri",
+    "pname": "clash-nyanpasu",
+    "version": "1.4.5"
+  },
   "legacyPackages.x86_64-linux.click-loglevel": {
     "description": "Log level parameter type for Click",
     "pname": "python3.12-click-loglevel",
@@ -337,112 +342,112 @@
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.generic": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.generic-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-generic": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-generic-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-x86_64-v1": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-x86_64-v1-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-x86_64-v2": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-x86_64-v2-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-x86_64-v3": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-x86_64-v3-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-x86_64-v4": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.latest-x86_64-v4-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-generic": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-generic-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-x86_64-v1": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-x86_64-v1-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-x86_64-v2": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-x86_64-v2-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-x86_64-v3": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-x86_64-v3-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-x86_64-v4": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.lts-x86_64-v4-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_0-generic": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
@@ -547,92 +552,92 @@
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-generic": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-generic-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-x86_64-v1": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-x86_64-v1-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-x86_64-v2": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-x86_64-v2-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-x86_64-v3": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-x86_64-v3-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-x86_64-v4": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.v6_6-x86_64-v4-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.6.49-xanmod1"
+    "version": "6.6.51-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.x86_64-v1": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.x86_64-v1-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.x86_64-v2": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.x86_64-v2-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.x86_64-v3": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.x86_64-v3-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.x86_64-v4": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.dataerasercLinuxXanmod.x86_64-v4-lto": {
     "description": "Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO",
     "pname": "linux",
-    "version": "6.10.8-xanmod1"
+    "version": "6.10.10-xanmod1"
   },
   "legacyPackages.x86_64-linux.decluttarr": {
     "description": "Watches radarr, sonarr, lidarr and readarr download queues and removes downloads if they become stalled or no longer needed.",
@@ -3429,6 +3434,11 @@
     "pname": "vbmeta-disable-verification",
     "version": "1.0"
   },
+  "legacyPackages.x86_64-linux.vgpu-unlock-rs": {
+    "description": "Unlock vGPU functionality for consumer grade GPUs",
+    "pname": "vgpu-unlock-rs",
+    "version": "2.4.0"
+  },
   "legacyPackages.x86_64-linux.vmware-workstation": {
     "description": "Industry standard desktop hypervisor for x86-64 architecture",
     "pname": "vmware-workstation",
@@ -3638,6 +3648,11 @@
     "description": "",
     "pname": "clang_dev_env_fhs-shell",
     "version": ""
+  },
+  "packages.x86_64-linux.clash-nyanpasu": {
+    "description": "Clash GUI based on tauri",
+    "pname": "clash-nyanpasu",
+    "version": "1.4.5"
   },
   "packages.x86_64-linux.click-loglevel": {
     "description": "Log level parameter type for Click",
@@ -4268,6 +4283,11 @@
     "description": "Patch Android vbmeta image and disable verification flags inside.",
     "pname": "vbmeta-disable-verification",
     "version": "1.0"
+  },
+  "packages.x86_64-linux.vgpu-unlock-rs": {
+    "description": "Unlock vGPU functionality for consumer grade GPUs",
+    "pname": "vgpu-unlock-rs",
+    "version": "2.4.0"
   },
   "packages.x86_64-linux.vmware-workstation": {
     "description": "Industry standard desktop hypervisor for x86-64 architecture",
