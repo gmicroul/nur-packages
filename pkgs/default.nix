@@ -282,5 +282,6 @@ mkScope (
     AppimageLauncher_deb =
       pkgs.libsForQt5.callPackage ./uncategorized-DataEraserC/AppimageLauncher_deb
         { };
+    buffybox = pkg ./uncategorized-DataEraserC/buffybox { };
   }
 )
