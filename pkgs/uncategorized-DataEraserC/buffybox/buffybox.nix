@@ -1,4 +1,5 @@
 { lib
+, sources
 , nixosTests
 , stdenv
 , fetchFromGitLab
@@ -13,17 +14,7 @@
 }:
 
 stdenv.mkDerivation (finalAttrs: {
-  pname = "buffybox";
-  version = "3.2.0";
-
-  src = fetchFromGitLab {
-    domain = "gitlab.com";
-    owner = "postmarketOS";
-    repo = "buffybox";
-    rev = finalAttrs.version;
-    fetchSubmodules = true;
-    hash = "sha256-nZX7mSY9IBIhVNmOD6mXI1IF2TgyKLc00a8ADAvVLB0=";
-  };
+  inherit (sources.buffybox) pname version src;
 
   nativeBuildInputs = [
     meson
@@ -47,11 +38,11 @@ stdenv.mkDerivation (finalAttrs: {
     tests.unl0kr = nixosTests.systemd-initrd-luks-unl0kr;
   };
 
-  sourceRoot = "${finalAttrs.src.name}/unl0kr";
+  sourceRoot = "${finalAttrs.src.name}/buffybox";
 
   meta = with lib; {
-    description = "Framebuffer-based disk unlocker for the initramfs based on LVGL";
-    mainProgram = "unl0kr";
+    description = "A suite of graphical applications for the terminal";
+    mainProgram = "buffybox";
     homepage = "https://gitlab.com/postmarketOS/buffybox";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
