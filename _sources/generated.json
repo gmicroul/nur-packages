@@ -3144,5 +3144,25 @@
             "type": "github"
         },
         "version": "f4ba115e0b0eaecde545e5f37db6aa18917d8f4b"
+    },
+    "buffybox": {
+        "cargoLocks": null,
+        "date": "2024-09-04",
+        "extract": null,
+        "name": "buffybox",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "rev": "e3325b30bd64399b5da97aef0ec0aea68ea1b019",
+            "sha256": "sha256-FYpEE7ah4N0wRXKrdMp5pYSttYGBe+0ISgq4Ngo2EKk=",
+            "sparseCheckout": [],
+            "type": "git",
+            "url": "https://gitlab.com/postmarketOS/buffybox.git"
+        },
+        "version": "e3325b30bd64399b5da97aef0ec0aea68ea1b019"
     }
 }

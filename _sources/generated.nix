@@ -1729,4 +1729,18 @@
     };
     date = "2024-04-22";
   };
+  buffybox = {
+    pname = "buffybox";
+    version = "e3325b30bd64399b5da97aef0ec0aea68ea1b019";
+    src = fetchgit {
+      url = "https://gitlab.com/postmarketOS/buffybox.git";
+      rev = "e3325b30bd64399b5da97aef0ec0aea68ea1b019";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sparseCheckout = [ ];
+      sha256 = "sha256-FYpEE7ah4N0wRXKrdMp5pYSttYGBe+0ISgq4Ngo2EKk=";
+    };
+    date = "2024-09-04";
+  };
 }

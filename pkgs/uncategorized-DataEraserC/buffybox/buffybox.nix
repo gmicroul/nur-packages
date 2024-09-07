@@ -34,15 +34,9 @@ stdenv.mkDerivation (finalAttrs: {
     libxkbcommon
   ];
 
-  passthru = {
-    tests.unl0kr = nixosTests.systemd-initrd-luks-unl0kr;
-  };
-
-  sourceRoot = "${finalAttrs.src.name}/buffybox";
-
   meta = with lib; {
     description = "A suite of graphical applications for the terminal";
-    mainProgram = "buffybox";
+    mainProgram = "buffyboard";
     homepage = "https://gitlab.com/postmarketOS/buffybox";
     license = licenses.gpl3Plus;
     platforms = platforms.linux;
