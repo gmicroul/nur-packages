@@ -293,3 +293,4 @@ jobs:
           name: 'DataEraserC/nur-packages'
           rolling: true
           visibility: 'public'
+          include-output-paths: false
