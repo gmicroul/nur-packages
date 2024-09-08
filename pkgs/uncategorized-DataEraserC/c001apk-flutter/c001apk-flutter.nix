@@ -26,8 +26,7 @@ flutter.buildFlutterApplication rec {
   meta = with lib; {
     description = "c001apk";
     homepage = "https://github.com/bggRGjQaUbCoE/c001apk-flutter";
-    license = licenses.gpl3Plus;
+    license = licenses.agpl3Only;
     platforms = platforms.linux;
-    mainProgram = "gtkgreet";
   };
 }
