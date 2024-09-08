@@ -1743,4 +1743,17 @@
     };
     date = "2024-09-04";
   };
+  ttyescape = {
+    pname = "ttyescape";
+    version = "810a195f19f68e817d95da5169b1fc4f22242630";
+    src = fetchgit {
+      url = "https://gitlab.com/postmarketOS/ttyescape.git";
+      rev = "810a195f19f68e817d95da5169b1fc4f22242630";
+      fetchSubmodules = true;
+      deepClone = false;
+      leaveDotGit = false;
+      sha256 = "sha256-HUAxjUelCvMgS7zHMXI4vPbyUe+wBMpL23xjPRzIaWY=";
+    };
+    date = "2023-03-08";
+  };
 }
