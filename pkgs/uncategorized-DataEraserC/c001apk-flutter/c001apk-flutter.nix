@@ -16,14 +16,11 @@ flutter.buildFlutterApplication rec {
     fetchSubmodules = true;
   };
 
-  sourceRoot = "${src.name}/linux";
-  autoPubspecLock = "${src}/pubspec.lock";
+  sourceRoot = "${src.name}";
+  autoPubspecLock = src + "/pubspec.lock";
 
   nativeBuildInputs = [
     pkg-config
-  ];
-
-  buildInputs = [
   ];
 
   meta = with lib; {
