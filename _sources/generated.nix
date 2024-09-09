@@ -1756,4 +1756,16 @@
     };
     date = "2023-03-08";
   };
+  c001apk-flutter = {
+    pname = "c001apk-flutter";
+    version = "5b1f561bd7ed75aa7c19d7bc02972162a5462e71";
+    src = fetchFromGitHub {
+      owner = "bggRGjQaUbCoE";
+      repo = "c001apk-flutter";
+      rev = "5b1f561bd7ed75aa7c19d7bc02972162a5462e71";
+      fetchSubmodules = true;
+      sha256 = "sha256-oX8MySJeqxuUYwdeu9fokEEXHKNJgx6ZvfqFisew2Mc=";
+    };
+    date = "2024-09-08";
+  };
 }

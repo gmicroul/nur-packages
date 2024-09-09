@@ -3183,5 +3183,25 @@
             "url": "https://gitlab.com/postmarketOS/ttyescape.git"
         },
         "version": "810a195f19f68e817d95da5169b1fc4f22242630"
+    },
+    "c001apk-flutter": {
+        "cargoLocks": null,
+        "date": "2024-09-08",
+        "extract": null,
+        "name": "c001apk-flutter",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "bggRGjQaUbCoE",
+            "repo": "c001apk-flutter",
+            "rev": "5b1f561bd7ed75aa7c19d7bc02972162a5462e71",
+            "sha256": "sha256-oX8MySJeqxuUYwdeu9fokEEXHKNJgx6ZvfqFisew2Mc=",
+            "type": "github"
+        },
+        "version": "5b1f561bd7ed75aa7c19d7bc02972162a5462e71"
     }
 }

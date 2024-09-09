@@ -1,20 +1,12 @@
 {
   lib,
-  fetchFromGitHub,
+  sources,
   pkg-config,
   flutter,
 }:
 flutter.buildFlutterApplication rec {
-  pname = "c001apk-flutter";
-  version = "HEAD";
 
-  src = fetchFromGitHub {
-    owner = "bggRGjQaUbCoE";
-    repo = pname;
-    rev = version;
-    sha256 = "sha256-XGZP0pnvEmaYei3G99fP+ZzRqHY6D9nu7xHhL92eTm0=";
-    fetchSubmodules = true;
-  };
+  inherit (sources.ttyescape) pname version src;
 
   sourceRoot = "${src.name}";
   autoPubspecLock = src + "/pubspec.lock";
