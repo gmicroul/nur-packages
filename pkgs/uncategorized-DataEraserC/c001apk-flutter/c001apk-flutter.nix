@@ -6,7 +6,7 @@
 }:
 flutter.buildFlutterApplication rec {
 
-  inherit (sources.ttyescape) pname version src;
+  inherit (sources.c001apk-flutter) pname version src;
 
   sourceRoot = "${src.name}";
   autoPubspecLock = src + "/pubspec.lock";
