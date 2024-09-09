@@ -88,7 +88,7 @@ Or, use variables from this repository in case I change them:
 ## Packages
 
 <details>
-<summary>Package set: (Uncategorized) (156 packages)</summary>
+<summary>Package set: (Uncategorized) (161 packages)</summary>
 
 | State | Path | Name | Version | Description |
 | ----- | ---- | ---- | ------- | ----------- |
@@ -110,6 +110,9 @@ Or, use variables from this repository in case I change them:
 |  | `bird-lgproxy-go` | [bird-lgproxy-go](https://github.com/xddxdd/bird-lg-go) | 1.3.8 | BIRD looking glass in Go, for better maintainability, easier deployment & smaller memory footprint |
 |  | `boringssl-oqs` | [boringssl-oqs](https://openquantumsafe.org) | unstable-2024-09-14 | Fork of BoringSSL that includes prototype quantum-resistant key exchange and authentication in the TLS handshake based on liboqs |
 |  | `browser360` | [browser360](https://browser.360.net/gc/index.html) | 13.3.1016.4 | 360 Browser |
+|  | `buffyboard` | [buffyboard](https://gitlab.com/postmarketOS/buffybox/-/tree/master/buffyboard) | unstable-2023-11-20 |  |
+|  | `buffybox` | [buffybox](https://gitlab.com/postmarketOS/buffybox) | unstable-2024-09-04 | A suite of graphical applications for the terminal |
+|  | `c001apk-flutter` | [ttyescape](https://github.com/bggRGjQaUbCoE/c001apk-flutter) | unstable-2023-03-08 | c001apk |
 |  | `calibre-cops` | [calibre-cops](http://blog.slucas.fr/en/oss/calibre-opds-php-server) | 2.7.2 | Calibre OPDS (and HTML) PHP Server : web-based light alternative to Calibre content server / Calibre2OPDS to serve ebooks (epub, mobi, pdf, ...) |
 |  | `chmlib-utils` | [chmlib](http://www.jedrea.com/chmlib) | 0.40a | Library for dealing with Microsoft ITSS/CHM format files |
 |  | `clang_dev_env` | clang_dev_env |  |  |
@@ -149,6 +152,7 @@ Or, use variables from this repository in case I change them:
 |  | `helium-gateway-rs` | [helium-gateway-rs](https://github.com/helium/gateway-rs) | unstable-2024-08-01 | The Helium Gateway |
 |  | `hesuvi-hrir` | [hesuvi-hrir](https://sourceforge.net/projects/hesuvi/) | 2.0.0.1 | Headphone Surround Virtualizations for Equalizer APO |
 |  | `hi3-ii-martian-font` | [hi3-ii-martian-font](https://github.com/Wenti-D/HI3IIMartianFont) | unstable-2023-10-12 | Font for Martian in Honkai Impact 3rd |
+|  | `hkdm` | [hkdm](https://gitlab.com/postmarketOS/hkdm) | 0.2.1 | A lighter-weight hotkey daemon |
 |  | `hoyo-glyphs` | [hoyo-glyphs](https://github.com/SpeedyOrc-C/Hoyo-Glyphs) | unstable-2024-09-12 | Constructed scripts by Hoyoverse 米哈游的架空文字  |
 | `Broken` | `i915-sriov` | [i915-sriov](https://github.com/strongtz/i915-sriov-dkms) | unstable-2024-08-11 | DKMS module of Linux i915 driver with SR-IOV support |
 |  | `imewlconverter` | [imewlconverter](https://github.com/studyzy/imewlconverter) | 3.1.0 | ”深蓝词库转换“ 一款开源免费的输入法词库转换程序 |
@@ -227,6 +231,7 @@ Or, use variables from this repository in case I change them:
 |  | `svp-mpv` | [mpv-with-scripts-0.38.0](https://mpv.io) |  | General-purpose media player, fork of MPlayer and mplayer2 |
 |  | `sx1302-hal` | [sx1302-hal](https://github.com/NebraLtd/sx1302_hal) | unstable-2023-02-06 | SX1302/SX1303 Hardware Abstraction Layer and Tools (packet forwarder...) |
 |  | `tqdm-loggable` | [tqdm-loggable](https://pypi.org/project/tqdm-loggable/) | 0.2 | TQDM progress bar helpers for logging and other headless application |
+|  | `ttyescape` | ttyescape | unstable-2023-03-08 |  |
 |  | `uesave` | [uesave](https://github.com/trumank/uesave-rs) | 0.5.0 | A library for reading and writing Unreal Engine save files (commonly referred to as GVAS). |
 |  | `uesave-0_3_0` | [uesave](https://github.com/trumank/uesave-rs) | 0.3.0 | A library for reading and writing Unreal Engine save files (commonly referred to as GVAS). Older version that works with Palworld. |
 |  | `uksmd` | [uksmd](https://github.com/CachyOS/uksmd) | 1.2.11 | Userspace KSM helper daemon |
@@ -292,81 +297,6 @@ Or, use variables from this repository in case I change them:
 |  | `asteriskDigiumCodecs.20.silk` | [asterisk-20-codec-silk](https://downloads.digium.com/pub/telephony/codec_silk/) | 1.0.3 | Asterisk 20 silk Codec by Digium |
 |  | `asteriskDigiumCodecs.20.siren14` | [asterisk-20-codec-siren14](https://downloads.digium.com/pub/telephony/codec_siren14/) | 1.0.7 | Asterisk 20 siren14 Codec by Digium |
 |  | `asteriskDigiumCodecs.20.siren7` | [asterisk-20-codec-siren7](https://downloads.digium.com/pub/telephony/codec_siren7/) | 1.0.7 | Asterisk 20 siren7 Codec by Digium |
-</details>
-
-<details>
-<summary>Package set: dataerasercLinuxXanmod (60 packages)</summary>
-
-| State | Path | Name | Version | Description |
-| ----- | ---- | ---- | ------- | ----------- |
-|  | `dataerasercLinuxXanmod.generic` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.generic-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.latest-generic` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.latest-generic-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.latest-x86_64-v1` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.latest-x86_64-v1-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.latest-x86_64-v2` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.latest-x86_64-v2-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.latest-x86_64-v3` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.latest-x86_64-v3-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.latest-x86_64-v4` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.latest-x86_64-v4-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.lts-generic` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.lts-generic-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.lts-x86_64-v1` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.lts-x86_64-v1-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.lts-x86_64-v2` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.lts-x86_64-v2-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.lts-x86_64-v3` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.lts-x86_64-v3-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.lts-x86_64-v4` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.lts-x86_64-v4-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_0-generic` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_0-generic-lto` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_0-x86_64-v1` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_0-x86_64-v1-lto` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_0-x86_64-v2` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_0-x86_64-v2-lto` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_0-x86_64-v3` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_0-x86_64-v3-lto` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_0-x86_64-v4` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_0-x86_64-v4-lto` | [linux](https://www.kernel.org/) | 6.0.12-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_1-generic` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_1-generic-lto` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_1-x86_64-v1` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_1-x86_64-v1-lto` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_1-x86_64-v2` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_1-x86_64-v2-lto` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_1-x86_64-v3` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_1-x86_64-v3-lto` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_1-x86_64-v4` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_1-x86_64-v4-lto` | [linux](https://www.kernel.org/) | 6.1.77-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_6-generic` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_6-generic-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_6-x86_64-v1` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_6-x86_64-v1-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_6-x86_64-v2` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_6-x86_64-v2-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_6-x86_64-v3` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_6-x86_64-v3-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.v6_6-x86_64-v4` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.v6_6-x86_64-v4-lto` | [linux](https://www.kernel.org/) | 6.6.51-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.x86_64-v1` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.x86_64-v1-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.x86_64-v2` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.x86_64-v2-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.x86_64-v3` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.x86_64-v3-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-|  | `dataerasercLinuxXanmod.x86_64-v4` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications |
-|  | `dataerasercLinuxXanmod.x86_64-v4-lto` | [linux](https://www.kernel.org/) | 6.10.10-xanmod1 | Linux Xanmod Kernel with DataEraserC Modifications and Clang+ThinLTO |
-</details>
-
-<details>
-<summary>Package set: dataerasercLinuxXanmodPackages (0 packages)</summary>
-
-| State | Path | Name | Version | Description |
-| ----- | ---- | ---- | ------- | ----------- |
-
 </details>
 
 <details>
