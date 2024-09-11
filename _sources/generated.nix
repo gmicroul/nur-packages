@@ -1758,14 +1758,14 @@
   };
   c001apk-flutter = {
     pname = "c001apk-flutter";
-    version = "5b1f561bd7ed75aa7c19d7bc02972162a5462e71";
+    version = "989cea4bbfdf17f264ad1008a937edce23023b59";
     src = fetchFromGitHub {
       owner = "bggRGjQaUbCoE";
       repo = "c001apk-flutter";
-      rev = "5b1f561bd7ed75aa7c19d7bc02972162a5462e71";
+      rev = "989cea4bbfdf17f264ad1008a937edce23023b59";
       fetchSubmodules = true;
-      sha256 = "sha256-oX8MySJeqxuUYwdeu9fokEEXHKNJgx6ZvfqFisew2Mc=";
+      sha256 = "sha256-hfL2AOBC8yMnTC7MAZBSCP0MLqwayYMVGLsj2IXU59E=";
     };
-    date = "2024-09-08";
+    date = "2024-09-10";
   };
 }

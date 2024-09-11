@@ -722,3 +722,8 @@ fetch.github = "tokers/zstd-nginx-module"
 src.git = "https://gitlab.com/postmarketOS/buffybox.git"
 fetch.git = "https://gitlab.com/postmarketOS/buffybox.git"
 git.fetchSubmodules = true
+
+[c001apk-flutter]
+src.git = "https://github.com/bggRGjQaUbCoE/c001apk-flutter.git"
+fetch.github = "bggRGjQaUbCoE/c001apk-flutter"
+git.fetchSubmodules = true
