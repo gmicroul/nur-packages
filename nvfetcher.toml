@@ -727,3 +727,8 @@ git.fetchSubmodules = true
 src.git = "https://github.com/bggRGjQaUbCoE/c001apk-flutter.git"
 fetch.github = "bggRGjQaUbCoE/c001apk-flutter"
 git.fetchSubmodules = true
+
+[PiliPalaX]
+src.git = "https://github.com/bggRGjQaUbCoE/PiliPalaX"
+fetch.github = "bggRGjQaUbCoE/PiliPalaX"
+git.fetchSubmodules = true

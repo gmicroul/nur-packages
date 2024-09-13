@@ -281,6 +281,7 @@ mkScope (
     buffybox = pkg ./uncategorized-DataEraserC/buffybox { };
     buffyboard = pkg ./uncategorized-DataEraserC/buffyboard { };
     c001apk-flutter = pkg ./uncategorized-DataEraserC/c001apk-flutter { };
+    PiliPalaX = pkg ./uncategorized-DataEraserC/PiliPalaX { };
     hkdm = pkg ./uncategorized-DataEraserC/hkdm { };
     ttyescape = pkg ./uncategorized-DataEraserC/ttyescape { };
   }

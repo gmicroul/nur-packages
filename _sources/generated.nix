@@ -1768,4 +1768,16 @@
     };
     date = "2024-09-10";
   };
+  PiliPalaX = {
+    pname = "PiliPalaX";
+    version = "e29d1cc5f1eeb2ccc4a9ee3e4ef394d1303a77a2";
+    src = fetchFromGitHub {
+      owner = "bggRGjQaUbCoE";
+      repo = "PiliPalaX";
+      rev = "e29d1cc5f1eeb2ccc4a9ee3e4ef394d1303a77a2";
+      fetchSubmodules = true;
+      sha256 = "sha256-Lis3ukbEIr7oeG9eqPpUuAttrC7R8Td/KrHrNOjVVus=";
+    };
+    date = "2024-09-12";
+  };
 }

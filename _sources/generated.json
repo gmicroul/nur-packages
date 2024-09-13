@@ -3203,6 +3203,26 @@
             "type": "github"
         },
         "version": "989cea4bbfdf17f264ad1008a937edce23023b59"
+    },
+    "PiliPalaX": {
+        "cargoLocks": null,
+        "date": "2024-09-12",
+        "extract": null,
+        "name": "PiliPalaX",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "bggRGjQaUbCoE",
+            "repo": "PiliPalaX",
+            "rev": "e29d1cc5f1eeb2ccc4a9ee3e4ef394d1303a77a2",
+            "sha256": "sha256-Lis3ukbEIr7oeG9eqPpUuAttrC7R8Td/KrHrNOjVVus=",
+            "type": "github"
+        },
+        "version": "e29d1cc5f1eeb2ccc4a9ee3e4ef394d1303a77a2"
     }
 
 }
