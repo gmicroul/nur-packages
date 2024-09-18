@@ -1758,26 +1758,26 @@
   };
   c001apk-flutter = {
     pname = "c001apk-flutter";
-    version = "989cea4bbfdf17f264ad1008a937edce23023b59";
+    version = "72f4cf2494db6c8834c4136de70109bc95ed9374";
     src = fetchFromGitHub {
       owner = "bggRGjQaUbCoE";
       repo = "c001apk-flutter";
-      rev = "989cea4bbfdf17f264ad1008a937edce23023b59";
+      rev = "72f4cf2494db6c8834c4136de70109bc95ed9374";
       fetchSubmodules = true;
-      sha256 = "sha256-hfL2AOBC8yMnTC7MAZBSCP0MLqwayYMVGLsj2IXU59E=";
+      sha256 = "sha256-xEVmSOryTu6EvI3FRqc89mR4X8aLNcH8fY5p12KVMQ8=";
     };
-    date = "2024-09-10";
+    date = "2024-09-17";
   };
   PiliPalaX = {
     pname = "PiliPalaX";
-    version = "e29d1cc5f1eeb2ccc4a9ee3e4ef394d1303a77a2";
+    version = "7e8385661526c2a154e01163b1c6ca70889302f8";
     src = fetchFromGitHub {
       owner = "bggRGjQaUbCoE";
       repo = "PiliPalaX";
-      rev = "e29d1cc5f1eeb2ccc4a9ee3e4ef394d1303a77a2";
+      rev = "7e8385661526c2a154e01163b1c6ca70889302f8";
       fetchSubmodules = true;
-      sha256 = "sha256-Lis3ukbEIr7oeG9eqPpUuAttrC7R8Td/KrHrNOjVVus=";
+      sha256 = "sha256-hQiRNAjFdmV2+KJ82XIKtGLc5bgGSq570sQyWq0Ix80=";
     };
-    date = "2024-09-12";
+    date = "2024-09-18";
   };
 }
