@@ -85,7 +85,7 @@ mkScope (
       transmission-with-webui = pkg ./lantian-customized/transmission-with-webui { };
     };
 
-    lantianLinuxXanmod = ifNotCI (mergePkgs (pkg ./lantian-linux-xanmod { inherit mode; }));
+    lantianLinuxXanmod = mergePkgs (pkg ./lantian-linux-xanmod { inherit mode; });
     lantianLinuxXanmodPackages = ifNotCI (
       mergePkgs (pkg ./lantian-linux-xanmod/packages.nix { inherit mode; })
     );
@@ -183,7 +183,6 @@ mkScope (
     nvlax-530 = pkg ./uncategorized/nvlax/nvidia-530.nix { };
     oci-arm-host-capacity = pkg ./uncategorized/oci-arm-host-capacity { };
     onepush = pkg ./uncategorized/onepush { };
-    openssl-oqs = pkg ./uncategorized/openssl-oqs { inherit (pkgs.linuxPackages) cryptodev; };
     openssl-oqs-provider = pkg ./uncategorized/openssl-oqs-provider { };
     openvswitch-dpdk = pkg ./uncategorized/openvswitch-dpdk { };
     osdlyrics = pkg ./uncategorized/osdlyrics { };
@@ -218,6 +217,7 @@ mkScope (
     sam-toki-mouse-cursors = pkg ./uncategorized/sam-toki-mouse-cursors { };
     sgx-software-enable = pkg ./uncategorized/sgx-software-enable { };
     smartrent_py = pkg ./uncategorized/smartrent_py { };
+    smfc = pkg ./uncategorized/smfc { };
     soggy = pkg ./uncategorized/soggy { };
     space-cadet-pinball-full-tilt = pkg ./uncategorized/space-cadet-pinball-full-tilt { };
     svp = pkg ./uncategorized/svp { };
@@ -275,7 +275,7 @@ mkScope (
     cudatoolkit_dev_env = pkg ./uncategorized-DataEraserC/cudatoolkit_dev_env { };
     cudatoolkit_dev_env_fhs = pkg ./uncategorized-DataEraserC/cudatoolkit_dev_env_fhs { };
     vmware-workstation = pkg ./uncategorized-DataEraserC/vmware-workstation { };
-    clash-nyanpasu = pkg ./uncategorized-DataEraserC/clash-nyanpasu { };
+    # clash-nyanpasu = pkg ./uncategorized-DataEraserC/clash-nyanpasu { };
     AppimageLauncher_deb =
       pkgs.libsForQt5.callPackage ./uncategorized-DataEraserC/AppimageLauncher_deb
         { };

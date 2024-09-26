@@ -388,11 +388,6 @@ fetch.github = "y1ndan/onepush"
 src.git = "https://github.com/openresty/openresty.git"
 fetch.github = "openresty/openresty"
 
-[openssl-oqs]
-src.git = "https://github.com/open-quantum-safe/openssl.git"
-src.branch = "OQS-OpenSSL_1_1_1-stable"
-fetch.github = "open-quantum-safe/openssl"
-
 [openssl-oqs-provider]
 src.github = "open-quantum-safe/oqs-provider"
 fetch.github = "open-quantum-safe/oqs-provider"
@@ -565,6 +560,10 @@ fetch.github = "intel/sgx-software-enable"
 src.manual = "0.4.0"
 fetch.pypi = "smartrent.py"
 
+[smfc]
+src.github = "petersulyok/smfc"
+fetch.github = "petersulyok/smfc"
+
 [soggy]
 src.git = "https://github.com/LDAsuku/soggy.git"
 fetch.github = "LDAsuku/soggy"
@@ -700,6 +699,11 @@ fetch.github = "tokers/zstd-nginx-module"
 [buffybox]
 src.git = "https://gitlab.com/postmarketOS/buffybox.git"
 fetch.git = "https://gitlab.com/postmarketOS/buffybox.git"
+git.fetchSubmodules = true
+
+[ttyescape]
+src.git = "https://gitlab.com/postmarketOS/ttyescape.git"
+fetch.git = "https://gitlab.com/postmarketOS/ttyescape.git"
 git.fetchSubmodules = true
 
 [c001apk-flutter]

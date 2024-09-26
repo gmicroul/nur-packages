@@ -60,7 +60,6 @@
           ./flake-modules/_internal/commands.nix
           ./flake-modules/_internal/meta.nix
           ./flake-modules/_internal/modules-test-nixos-config.nix
-          ./flake-modules/_internal/package-meta.nix
           flakeModules.commands
           flakeModules.lantian-pre-commit-hooks
           flakeModules.lantian-treefmt
@@ -83,6 +82,16 @@
                   pkgs-24_05 = pkgsForSystem-24_05 final.system;
                   inherit inputs;
                 };
+              inSubTree = final: prev: {
+                nur-xddxdd = import ./pkgs null {
+                  pkgs = prev;
+                  pkgs-24_05 = pkgsForSystem-24_05 final.system;
+                  inherit inputs;
+                };
+              };
+              inSubTree-pinnedNixpkgs = final: _prev: {
+                nur-xddxdd = self.legacyPackages.${final.system};
+              };
             }
             // (builtins.listToAttrs (
               builtins.map (s: {

@@ -124,21 +124,21 @@
   };
   bilibili = {
     pname = "bilibili";
-    version = "1.14.0-2";
+    version = "1.14.2-1";
     src = fetchurl {
-      url = "https://github.com/msojocs/bilibili-linux/releases/download/v1.14.0-2/bilibili-asar-v1.14.0-2.tar.gz";
-      sha256 = "sha256-3Corn6i4BGWDZUGbJk8P/W+e8BV4vFMVL6+A5youPKY=";
+      url = "https://github.com/msojocs/bilibili-linux/releases/download/v1.14.2-1/bilibili-asar-v1.14.2-1.tar.gz";
+      sha256 = "sha256-S9Ib/hn9Wzl1bFRJcGPDNWONJpbh0zUGcfdHDN7dPfY=";
     };
   };
   bilibili-src = {
     pname = "bilibili-src";
-    version = "v1.14.0-2";
+    version = "v1.14.2-1";
     src = fetchFromGitHub {
       owner = "msojocs";
       repo = "bilibili-linux";
-      rev = "v1.14.0-2";
+      rev = "v1.14.2-1";
       fetchSubmodules = false;
-      sha256 = "sha256-p6Hl2VSrXnd8FknwdDpWgJe3vdij6C4kYBkCN9hJrsM=";
+      sha256 = "sha256-wNEfzmVk1WJHSiRGmf6BS9GvfXJ1FAaY1EkHAXqvUxY=";
     };
   };
   bird-lg-go = {
@@ -182,15 +182,15 @@
   };
   cachyos-kernel-patches = {
     pname = "cachyos-kernel-patches";
-    version = "3df5d8653a0636e9e43b010711a5cf55d4f1166b";
+    version = "2c8f0894daa80df888154cd6d40fdf894b4a4c4c";
     src = fetchFromGitHub {
       owner = "CachyOS";
       repo = "kernel-patches";
-      rev = "3df5d8653a0636e9e43b010711a5cf55d4f1166b";
+      rev = "2c8f0894daa80df888154cd6d40fdf894b4a4c4c";
       fetchSubmodules = false;
-      sha256 = "sha256-AhtIgXuBMgqwTx7uUx2OdtUp77RyFXNiAcKMoAuDHsI=";
+      sha256 = "sha256-O4gP0Uzfw79e9oahumxIDnYhY1PuSxGWzx45+uM/3TQ=";
     };
-    date = "2024-09-21";
+    date = "2024-09-25";
   };
   calibre-cops = {
     pname = "calibre-cops";
@@ -509,15 +509,15 @@
   };
   i915-sriov-dkms = {
     pname = "i915-sriov-dkms";
-    version = "13f855c39d0326bb2be6febb7f4317d50e7a3f34";
+    version = "52020b4f469f9bd40c48e296e9a3e826a11df177";
     src = fetchFromGitHub {
       owner = "strongtz";
       repo = "i915-sriov-dkms";
-      rev = "13f855c39d0326bb2be6febb7f4317d50e7a3f34";
+      rev = "52020b4f469f9bd40c48e296e9a3e826a11df177";
       fetchSubmodules = false;
-      sha256 = "sha256-Km+FuHRBl2qe8q7MDDqmRfSJrCzPgI05MqdYak6fpGs=";
+      sha256 = "sha256-YwPf8G1v4cVy/EEG3iMKe2wXIYrJY+l+7YZ95kE7T1s=";
     };
-    date = "2024-09-22";
+    date = "2024-09-24";
   };
   imewlconverter = {
     pname = "imewlconverter";
@@ -648,15 +648,15 @@
   };
   liboqs-unstable = {
     pname = "liboqs-unstable";
-    version = "306140ebb577180e7bc704714e82949f7b9d33cf";
+    version = "18db4c6a3d64d78994aa99fe518aa39b3bcd861e";
     src = fetchFromGitHub {
       owner = "open-quantum-safe";
       repo = "liboqs";
-      rev = "306140ebb577180e7bc704714e82949f7b9d33cf";
+      rev = "18db4c6a3d64d78994aa99fe518aa39b3bcd861e";
       fetchSubmodules = false;
-      sha256 = "sha256-pRXzLID2hPunjoKenp1jp8q1vtt14nyEKajl3DTRws0=";
+      sha256 = "sha256-9LYPjZ4U/RG6wai+G7EQ4W0m2wocDxFj/rml8DINiJw=";
     };
-    date = "2024-09-13";
+    date = "2024-09-25";
   };
   libqcef = {
     pname = "libqcef";
@@ -764,13 +764,13 @@
   };
   llama-cpp = {
     pname = "llama-cpp";
-    version = "b3802";
+    version = "b3827";
     src = fetchFromGitHub {
       owner = "ggerganov";
       repo = "llama.cpp";
-      rev = "b3802";
+      rev = "b3827";
       fetchSubmodules = false;
-      sha256 = "sha256-Ze/1x3+ZIt3u7ZHW8jPurag46+tyFx9bR3/H/mF5QiA=";
+      sha256 = "sha256-lNyMhhWwkjzey5QlrB3149oWgSyMHOqPZ7ITl+INTno=";
     };
   };
   lyrica = {
@@ -1007,18 +1007,6 @@
     };
     date = "2024-09-14";
   };
-  openssl-oqs = {
-    pname = "openssl-oqs";
-    version = "98ce60974b53ac99b975cf2418aabab7519f1dff";
-    src = fetchFromGitHub {
-      owner = "open-quantum-safe";
-      repo = "openssl";
-      rev = "98ce60974b53ac99b975cf2418aabab7519f1dff";
-      fetchSubmodules = false;
-      sha256 = "sha256-pGXKS5GR/k+x3S7li0xsZIw4dJwyD4i0RY70ueWsgZo=";
-    };
-    date = "2023-07-19";
-  };
   openssl-oqs-provider = {
     pname = "openssl-oqs-provider";
     version = "0.6.1";
@@ -1201,34 +1189,34 @@
   };
   qemu-user-static-amd64 = {
     pname = "qemu-user-static-amd64";
-    version = "9.1.0+ds-3+b1";
+    version = "9.1.0+ds-6";
     src = fetchurl {
-      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-3+b1_amd64.deb";
-      sha256 = "sha256-Qqy02QRwW+TPgh+vqhN1WE/5w9xDjxpqKWpdSzk2bBk=";
+      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-6_amd64.deb";
+      sha256 = "sha256-igaL8+2RtkBre0jBNYN4Xvvp5dCNiHJfxFjxUXjQuQ0=";
     };
   };
   qemu-user-static-arm64 = {
     pname = "qemu-user-static-arm64";
-    version = "9.1.0+ds-3+b1";
+    version = "9.1.0+ds-5";
     src = fetchurl {
-      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-3+b1_arm64.deb";
-      sha256 = "sha256-GFnJSOm8vvqEm7AQUHjW5rluj0UnSxCAqORnirB55Lc=";
+      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-5_arm64.deb";
+      sha256 = "sha256-lDseoDa2BjfOJtBZVLvbC4x8Km6hLZo0M9wHqGgiqGY=";
     };
   };
   qemu-user-static-armhf = {
     pname = "qemu-user-static-armhf";
-    version = "9.1.0+ds-3+b1";
+    version = "9.1.0+ds-5";
     src = fetchurl {
-      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-3+b1_armhf.deb";
-      sha256 = "sha256-J6wJFpKsCikwE2NkJj0/FmggQs8EmHK9ruNHNeDEqBI=";
+      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-5_armhf.deb";
+      sha256 = "sha256-ppAOuZAqIN3Iixv38IAhvYWnJPaLuKgDBgwNI0Kzn9o=";
     };
   };
   qemu-user-static-i386 = {
     pname = "qemu-user-static-i386";
-    version = "9.1.0+ds-3+b1";
+    version = "9.1.0+ds-6";
     src = fetchurl {
-      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-3+b1_i386.deb";
-      sha256 = "sha256-X0cnKZrNCmwphmtOKbfd6u8LJXkFGJQX5c18C8CisZ4=";
+      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-6_i386.deb";
+      sha256 = "sha256-wlPdIPXWy6PegjyRgzEwnFu1l8rtxDM6Tfr6exC+jow=";
     };
   };
   qhttpengine = {
@@ -1245,18 +1233,18 @@
   };
   qq-amd64 = {
     pname = "qq-amd64";
-    version = "Linux/QQ_3.2.12_240919_amd64_01";
+    version = "Linux/QQ_3.2.12_240925_amd64_01";
     src = fetchurl {
-      url = "https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.12_240919_amd64_01.deb";
-      sha256 = "sha256-AV9qV+A1PXNTqKBeEjcmXPO35SwtTIVbtXZx5XqxaDE=";
+      url = "https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.12_240925_amd64_01.deb";
+      sha256 = "sha256-ws96ezfEYXZW5R+talKCB/5kN76JX81W1por7FjkhP8=";
     };
   };
   qq-arm64 = {
     pname = "qq-arm64";
-    version = "Linux/QQ_3.2.12_240919_arm64_01";
+    version = "Linux/QQ_3.2.12_240925_arm64_01";
     src = fetchurl {
-      url = "https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.12_240919_arm64_01.deb";
-      sha256 = "sha256-hLTVOEt0nTyFCtSSQnCnVcp5WNqs96Y6ZkXwYPE/oJs=";
+      url = "https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.12_240925_arm64_01.deb";
+      sha256 = "sha256-tIXzUQ6DMiP3yNsg61lFX1PUXo3N1vFopZY5Cy/CTu4=";
     };
   };
   qqmusic = {
@@ -1335,15 +1323,15 @@
   };
   rime-ice = {
     pname = "rime-ice";
-    version = "2ea99c5e4f3afaa24ebef61d17ea097557ca36b3";
+    version = "ea74e40bec2bd6580fa8d807075cd107739ba6cd";
     src = fetchFromGitHub {
       owner = "iDvel";
       repo = "rime-ice";
-      rev = "2ea99c5e4f3afaa24ebef61d17ea097557ca36b3";
+      rev = "ea74e40bec2bd6580fa8d807075cd107739ba6cd";
       fetchSubmodules = false;
-      sha256 = "sha256-6leug6CxZjg855fjW2mKPLcmMTO/KE9xjLm9hbZH2Fo=";
+      sha256 = "sha256-R2K2LNycXqsUxXvMMq5fcQJUhDnhQMcTlvryMLeiKH0=";
     };
-    date = "2024-09-16";
+    date = "2024-09-25";
   };
   rime-moegirl = {
     pname = "rime-moegirl";
@@ -1424,6 +1412,17 @@
     src = fetchurl {
       url = "https://pypi.org/packages/source/s/smartrent.py/smartrent.py-0.4.0.tar.gz";
       sha256 = "sha256-02RMZhytJrRYHGv1ugRY2MMHpk10TcoDgvRkEGIuabo=";
+    };
+  };
+  smfc = {
+    pname = "smfc";
+    version = "v3.5.1";
+    src = fetchFromGitHub {
+      owner = "petersulyok";
+      repo = "smfc";
+      rev = "v3.5.1";
+      fetchSubmodules = false;
+      sha256 = "sha256-zfQDvh5j40UNwJanGS5acRyNB+3j5jcKC/vsPHRijtc=";
     };
   };
   soggy = {
@@ -1688,32 +1687,30 @@
     };
     date = "2024-04-22";
   };
+  PiliPalaX = {
+    pname = "PiliPalaX";
+    version = "b88cfae8d9a9834e6153ccf6e3681278574d2549";
+    src = fetchFromGitHub {
+      owner = "bggRGjQaUbCoE";
+      repo = "PiliPalaX";
+      rev = "b88cfae8d9a9834e6153ccf6e3681278574d2549";
+      fetchSubmodules = true;
+      sha256 = "sha256-52d4mfRkvpSGaGUrD00PkajUUr0yyseuLuDPMC/CKwc=";
+    };
+    date = "2024-09-26";
+  };
   buffybox = {
     pname = "buffybox";
-    version = "e3325b30bd64399b5da97aef0ec0aea68ea1b019";
+    version = "1e5ae8f8e5c00dd00e16268f1668cfb9e7c447f9";
     src = fetchgit {
       url = "https://gitlab.com/postmarketOS/buffybox.git";
-      rev = "e3325b30bd64399b5da97aef0ec0aea68ea1b019";
+      rev = "1e5ae8f8e5c00dd00e16268f1668cfb9e7c447f9";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sparseCheckout = [ ];
-      sha256 = "sha256-FYpEE7ah4N0wRXKrdMp5pYSttYGBe+0ISgq4Ngo2EKk=";
+      sha256 = "sha256-A8zVLu6pYR0cVJntv6HRKijfSuvsWC+VV7DQH+Swgds=";
     };
-    date = "2024-09-04";
-  };
-  ttyescape = {
-    pname = "ttyescape";
-    version = "810a195f19f68e817d95da5169b1fc4f22242630";
-    src = fetchgit {
-      url = "https://gitlab.com/postmarketOS/ttyescape.git";
-      rev = "810a195f19f68e817d95da5169b1fc4f22242630";
-      fetchSubmodules = true;
-      deepClone = false;
-      leaveDotGit = false;
-      sha256 = "sha256-HUAxjUelCvMgS7zHMXI4vPbyUe+wBMpL23xjPRzIaWY=";
-    };
-    date = "2023-03-08";
+    date = "2024-09-26";
   };
   c001apk-flutter = {
     pname = "c001apk-flutter";
@@ -1727,16 +1724,17 @@
     };
     date = "2024-09-17";
   };
-  PiliPalaX = {
-    pname = "PiliPalaX";
-    version = "7e8385661526c2a154e01163b1c6ca70889302f8";
-    src = fetchFromGitHub {
-      owner = "bggRGjQaUbCoE";
-      repo = "PiliPalaX";
-      rev = "7e8385661526c2a154e01163b1c6ca70889302f8";
+  ttyescape = {
+    pname = "ttyescape";
+    version = "810a195f19f68e817d95da5169b1fc4f22242630";
+    src = fetchgit {
+      url = "https://gitlab.com/postmarketOS/ttyescape.git";
+      rev = "810a195f19f68e817d95da5169b1fc4f22242630";
       fetchSubmodules = true;
-      sha256 = "sha256-hQiRNAjFdmV2+KJ82XIKtGLc5bgGSq570sQyWq0Ix80=";
+      deepClone = false;
+      leaveDotGit = false;
+      sha256 = "sha256-HUAxjUelCvMgS7zHMXI4vPbyUe+wBMpL23xjPRzIaWY=";
     };
-    date = "2024-09-18";
+    date = "2023-03-08";
   };
 }
