@@ -193,6 +193,7 @@ jobs:
       - name: Speed Up nix
         uses: DeterminateSystems/magic-nix-cache-action@main
       - name: Build nix packages
+        if: ${{ matrix.cachixName != '<YOUR_CACHIX_NAME>' }}
         run: |
           nix run .#nur-check
 
