@@ -1737,4 +1737,28 @@
     };
     date = "2023-03-08";
   };
+  v2ray-rules-dat = {
+    pname = "v2ray-rules-dat";
+    version = "202409262211";
+    src = fetchurl {
+      url = "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202409262211/rules.zip";
+      sha256 = "sha256-sfqpNQFw6MCME4eDAycDGrafyd4YYYAplu+32nyPzOo=";
+    };
+  };
+  wechat-web-devtools-linux_appimage = {
+    pname = "wechat-web-devtools-linux_appimage";
+    version = "1.06.2405020-3";
+    src = fetchurl {
+      url = "https://github.com/msojocs/wechat-web-devtools-linux/releases/download/v1.06.2405020-3/WeChat_Dev_Tools_v1.06.2405020-3_x86_64_linux.AppImage";
+      sha256 = "sha256-SmrKWfH8GapDn6b4z6LMXuz7PH42eHVcgg1HKsaqw8Y=";
+    };
+  };
+  wechat-web-devtools-linux_bin = {
+    pname = "wechat-web-devtools-linux_bin";
+    version = "1.06.2405020-3";
+    src = fetchurl {
+      url = "https://github.com/msojocs/wechat-web-devtools-linux/releases/download/v1.06.2405020-3/WeChat_Dev_Tools_v1.06.2405020-3_x86_64_linux.tar.gz";
+      sha256 = "sha256-RHg2GZDJYtRivemv6sssWp3xY0i979nCyPYpoCaEuQ0=";
+    };
+  };
 }

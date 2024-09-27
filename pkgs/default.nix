@@ -285,5 +285,6 @@ mkScope (
     PiliPalaX = pkg ./uncategorized-DataEraserC/PiliPalaX { };
     hkdm = pkg ./uncategorized-DataEraserC/hkdm { };
     ttyescape = pkg ./uncategorized-DataEraserC/ttyescape { };
+    v2ray-rules-dat = pkg ./uncategorized-DataEraserC/v2ray-rules-dat { };
   }
 )

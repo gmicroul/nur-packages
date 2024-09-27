@@ -3147,5 +3147,50 @@
             "url": "https://gitlab.com/postmarketOS/ttyescape.git"
         },
         "version": "810a195f19f68e817d95da5169b1fc4f22242630"
+    },
+    "v2ray-rules-dat": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "v2ray-rules-dat",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-sfqpNQFw6MCME4eDAycDGrafyd4YYYAplu+32nyPzOo=",
+            "type": "url",
+            "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202409262211/rules.zip"
+        },
+        "version": "202409262211"
+    },
+    "wechat-web-devtools-linux_appimage": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "wechat-web-devtools-linux_appimage",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-SmrKWfH8GapDn6b4z6LMXuz7PH42eHVcgg1HKsaqw8Y=",
+            "type": "url",
+            "url": "https://github.com/msojocs/wechat-web-devtools-linux/releases/download/v1.06.2405020-3/WeChat_Dev_Tools_v1.06.2405020-3_x86_64_linux.AppImage"
+        },
+        "version": "1.06.2405020-3"
+    },
+    "wechat-web-devtools-linux_bin": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "wechat-web-devtools-linux_bin",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-RHg2GZDJYtRivemv6sssWp3xY0i979nCyPYpoCaEuQ0=",
+            "type": "url",
+            "url": "https://github.com/msojocs/wechat-web-devtools-linux/releases/download/v1.06.2405020-3/WeChat_Dev_Tools_v1.06.2405020-3_x86_64_linux.tar.gz"
+        },
+        "version": "1.06.2405020-3"
     }
 }
