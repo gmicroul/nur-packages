@@ -59,7 +59,7 @@ mkScope (
 
     meta = import ../helpers/meta.nix;
   in
-  {
+  rec {
     # Binary cache information
     _meta = mergePkgs (
       {
@@ -285,6 +285,7 @@ mkScope (
     PiliPalaX = pkg ./uncategorized-DataEraserC/PiliPalaX { };
     hkdm = pkg ./uncategorized-DataEraserC/hkdm { };
     ttyescape = pkg ./uncategorized-DataEraserC/ttyescape { };
-    v2ray-rules-dat = pkg ./uncategorized-DataEraserC/v2ray-rules-dat { };
+    v2dat = pkg ./uncategorized-DataEraserC/v2dat { };
+    v2ray-rules-dat = pkg ./uncategorized-DataEraserC/v2ray-rules-dat { inherit v2dat; };
   }
 )

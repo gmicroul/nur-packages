@@ -733,3 +733,8 @@ src.github_tag = "Loyalsoldier/v2ray-rules-dat"
 src.from_pattern = "v(.*)"
 src.to_pattern = "\\1"
 fetch.url = "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$ver/rules.zip"
+
+[v2dat]
+src.git = "https://github.com/urlesistiana/v2dat"
+fetch.github = "urlesistiana/v2dat"
+git.fetchSubmodules = true

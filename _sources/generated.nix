@@ -1737,6 +1737,18 @@
     };
     date = "2023-03-08";
   };
+  v2dat = {
+    pname = "v2dat";
+    version = "47b8ee51fb528e11e1a83453b7e767a18d20d1f7";
+    src = fetchFromGitHub {
+      owner = "urlesistiana";
+      repo = "v2dat";
+      rev = "47b8ee51fb528e11e1a83453b7e767a18d20d1f7";
+      fetchSubmodules = true;
+      sha256 = "sha256-dJld4hYdfnpphIEJvYsj5VvEF4snLvXZ059HJ2BXwok=";
+    };
+    date = "2022-12-15";
+  };
   v2ray-rules-dat = {
     pname = "v2ray-rules-dat";
     version = "202409262211";
