@@ -123,7 +123,6 @@
             "openssl-1.1.1w"
             "python-2.7.18.7"
           ];
-          overlays = [ self.overlays.default ];
         };
 
         perSystem =

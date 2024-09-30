@@ -328,7 +328,7 @@
     },
     "cachyos-kernel-patches": {
         "cargoLocks": null,
-        "date": "2024-09-25",
+        "date": "2024-09-30",
         "extract": null,
         "name": "cachyos-kernel-patches",
         "passthru": null,
@@ -340,12 +340,12 @@
             "name": null,
             "owner": "CachyOS",
             "repo": "kernel-patches",
-            "rev": "2c8f0894daa80df888154cd6d40fdf894b4a4c4c",
-            "sha256": "sha256-O4gP0Uzfw79e9oahumxIDnYhY1PuSxGWzx45+uM/3TQ=",
+            "rev": "f6a370866994a6808fe23ce80099295f1fec687b",
+            "sha256": "sha256-9d6hxYfVNxPeBX8X9/bZ4NIwHHfS1piK7T51EOPFA2w=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "2c8f0894daa80df888154cd6d40fdf894b4a4c4c"
+        "version": "f6a370866994a6808fe23ce80099295f1fec687b"
     },
     "calibre-cops": {
         "cargoLocks": null,
@@ -1146,16 +1146,16 @@
             "name": null,
             "owner": "open-quantum-safe",
             "repo": "liboqs",
-            "rev": "0.10.1",
-            "sha256": "sha256-zsSKFUs75K0Byxh3KVCZ8lIOf/vpbyMJXfk6fa2u+aE=",
+            "rev": "0.11.0",
+            "sha256": "sha256-+Gx1JPrJoeMix9DIF0rJQTivxN1lgaCIYFvJ1pnYZzM=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "0.10.1"
+        "version": "0.11.0"
     },
     "liboqs-unstable": {
         "cargoLocks": null,
-        "date": "2024-09-25",
+        "date": "2024-09-27",
         "extract": null,
         "name": "liboqs-unstable",
         "passthru": null,
@@ -1167,12 +1167,12 @@
             "name": null,
             "owner": "open-quantum-safe",
             "repo": "liboqs",
-            "rev": "18db4c6a3d64d78994aa99fe518aa39b3bcd861e",
-            "sha256": "sha256-9LYPjZ4U/RG6wai+G7EQ4W0m2wocDxFj/rml8DINiJw=",
+            "rev": "a5528768a1e7a254707bad1b54d8e2f65c9490d2",
+            "sha256": "sha256-BivIjF/yhCoK4ZXG9UBA8fasxoN1W28hVlQ3YCN3EX8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "18db4c6a3d64d78994aa99fe518aa39b3bcd861e"
+        "version": "a5528768a1e7a254707bad1b54d8e2f65c9490d2"
     },
     "libqcef": {
         "cargoLocks": null,
@@ -1377,12 +1377,12 @@
             "name": null,
             "owner": "ggerganov",
             "repo": "llama.cpp",
-            "rev": "b3827",
-            "sha256": "sha256-lNyMhhWwkjzey5QlrB3149oWgSyMHOqPZ7ITl+INTno=",
+            "rev": "b3849",
+            "sha256": "sha256-omzVjdC2mYspv5iQaK7pzCvVSf28thYW+MiBqzWFOwo=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "b3827"
+        "version": "b3849"
     },
     "lyrica": {
         "cargoLocks": null,
@@ -1942,11 +1942,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-PrB39gN4+7uzz17qNFkzNX8ugVARS/LDk2dPO2XoA/E=",
+            "sha256": "sha256-X0Qx4Qm2ZvQGAsl3hqCj63XT/WHQbxk+rljWnxWcqjo=",
             "type": "url",
-            "url": "https://github.com/Ghost-chu/PeerBanHelper/releases/download/v6.2.8/PeerBanHelper.jar"
+            "url": "https://github.com/Ghost-chu/PeerBanHelper/releases/download/v6.4.1/PeerBanHelper.jar"
         },
-        "version": "v6.2.8"
+        "version": "v6.4.1"
     },
     "phpmyadmin": {
         "cargoLocks": null,
@@ -2155,11 +2155,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-igaL8+2RtkBre0jBNYN4Xvvp5dCNiHJfxFjxUXjQuQ0=",
+            "sha256": "sha256-7cvqaiiepzF1Bl2Q2Lf4+EIop4lgOgIlhG0oswD499c=",
             "type": "url",
-            "url": "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-6_amd64.deb"
+            "url": "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-7_amd64.deb"
         },
-        "version": "9.1.0+ds-6"
+        "version": "9.1.0+ds-7"
     },
     "qemu-user-static-arm64": {
         "cargoLocks": null,
@@ -2170,11 +2170,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-lDseoDa2BjfOJtBZVLvbC4x8Km6hLZo0M9wHqGgiqGY=",
+            "sha256": "sha256-FoQXc8b7m7pQMpLpsJjPJgQN1fLq0sWuR8pojiMl83w=",
             "type": "url",
-            "url": "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-5_arm64.deb"
+            "url": "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-7_arm64.deb"
         },
-        "version": "9.1.0+ds-5"
+        "version": "9.1.0+ds-7"
     },
     "qemu-user-static-armhf": {
         "cargoLocks": null,
@@ -2185,11 +2185,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ppAOuZAqIN3Iixv38IAhvYWnJPaLuKgDBgwNI0Kzn9o=",
+            "sha256": "sha256-Z81HQ0pBiNnwvHzN7BCVAvTn1c+ci8HGv7E+tcA/XXs=",
             "type": "url",
-            "url": "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-5_armhf.deb"
+            "url": "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-7_armhf.deb"
         },
-        "version": "9.1.0+ds-5"
+        "version": "9.1.0+ds-7"
     },
     "qemu-user-static-i386": {
         "cargoLocks": null,
@@ -2200,11 +2200,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-wlPdIPXWy6PegjyRgzEwnFu1l8rtxDM6Tfr6exC+jow=",
+            "sha256": "sha256-D9rrAY8X201IJLmoOPwgbjhBg+HWTZEWhzLLZCNxk3s=",
             "type": "url",
-            "url": "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-6_i386.deb"
+            "url": "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-7_i386.deb"
         },
-        "version": "9.1.0+ds-6"
+        "version": "9.1.0+ds-7"
     },
     "qhttpengine": {
         "cargoLocks": null,
@@ -2236,11 +2236,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-ws96ezfEYXZW5R+talKCB/5kN76JX81W1por7FjkhP8=",
+            "sha256": "sha256-xBGSSxXDu+qUwj203i3iAkfI97iLtGOuGMGfEU6kCyQ=",
             "type": "url",
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.12_240925_amd64_01.deb"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.12_240927_amd64_01.deb"
         },
-        "version": "Linux/QQ_3.2.12_240925_amd64_01"
+        "version": "Linux/QQ_3.2.12_240927_amd64_01"
     },
     "qq-arm64": {
         "cargoLocks": null,
@@ -2251,11 +2251,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-tIXzUQ6DMiP3yNsg61lFX1PUXo3N1vFopZY5Cy/CTu4=",
+            "sha256": "sha256-VfM+p2cTNkDZc7sTftfTuRSMKVWwE6TerW25pA1MIR0=",
             "type": "url",
-            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.12_240925_arm64_01.deb"
+            "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.12_240927_arm64_01.deb"
         },
-        "version": "Linux/QQ_3.2.12_240925_arm64_01"
+        "version": "Linux/QQ_3.2.12_240927_arm64_01"
     },
     "qqmusic": {
         "cargoLocks": null,
@@ -2478,12 +2478,12 @@
             "name": null,
             "owner": "runpod",
             "repo": "runpod-python",
-            "rev": "1.6.2",
-            "sha256": "sha256-nVkrqVgNbbdq7UQWjWkPPYIYsRQVcTIVzy4wT69ZoyY=",
+            "rev": "1.7.1",
+            "sha256": "sha256-WsjDKbigR6cigJ+7ORxLhdGF+n2YPfGog/ttuu0ZakY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1.6.2"
+        "version": "1.7.1"
     },
     "runpodctl": {
         "cargoLocks": null,
@@ -2998,11 +2998,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-drTQ9Nwopnm+oJskcURJVuQ2gJgrMe7JWE6cz2lQRtk=",
+            "sha256": "sha256-SYX5YjUVT8QXbjly8UcJ9fEPwGBuVYkHWm2pttx/zNM=",
             "type": "url",
-            "url": "https://github.com/tom-snow/wechat-windows-versions/releases/download/v3.9.12.15/WeChatSetup-3.9.12.15.exe"
+            "url": "https://github.com/tom-snow/wechat-windows-versions/releases/download/v3.9.12.17/WeChatSetup-3.9.12.17.exe"
         },
-        "version": "3.9.12.15"
+        "version": "3.9.12.17"
     },
     "wine-wechat-x86": {
         "cargoLocks": null,
@@ -3013,11 +3013,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-iX9pwD+NXRAZkEjHE1NADZLUytFs20H9t9JdetO2MXo=",
+            "sha256": "sha256-oISntkFvSvSnEIpGzgpPKIViR1WStgU74E7puNkdjZY=",
             "type": "url",
-            "url": "https://github.com/tom-snow/wechat-windows-versions-x86/releases/download/v3.9.12.14/WeChatSetupX86-3.9.12.14.exe"
+            "url": "https://github.com/tom-snow/wechat-windows-versions-x86/releases/download/v3.9.12.16/WeChatSetupX86-3.9.12.16.exe"
         },
-        "version": "3.9.12.14"
+        "version": "3.9.12.16"
     },
     "xstatic-asciinema-player": {
         "cargoLocks": null,
