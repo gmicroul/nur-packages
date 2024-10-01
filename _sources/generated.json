@@ -3072,7 +3072,7 @@
     },
     "PiliPalaX": {
         "cargoLocks": null,
-        "date": "2024-09-26",
+        "date": "2024-10-01",
         "extract": null,
         "name": "PiliPalaX",
         "passthru": null,
@@ -3084,11 +3084,11 @@
             "name": null,
             "owner": "bggRGjQaUbCoE",
             "repo": "PiliPalaX",
-            "rev": "b88cfae8d9a9834e6153ccf6e3681278574d2549",
-            "sha256": "sha256-52d4mfRkvpSGaGUrD00PkajUUr0yyseuLuDPMC/CKwc=",
+            "rev": "793f1a340fab320944eccd68436762ebbcc2eb8d",
+            "sha256": "sha256-Pir7/F0iJ/KmywRchLuGd90o1t3QzLNqPLolWaeD5Uk=",
             "type": "github"
         },
-        "version": "b88cfae8d9a9834e6153ccf6e3681278574d2549"
+        "version": "793f1a340fab320944eccd68436762ebbcc2eb8d"
     },
     "buffybox": {
         "cargoLocks": null,
@@ -3177,11 +3177,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-sfqpNQFw6MCME4eDAycDGrafyd4YYYAplu+32nyPzOo=",
+            "sha256": "sha256-9Cn7g7xfB8k4MBSTMid1IxnmTh+2rsZj0xvea/btZ7Y=",
             "type": "url",
-            "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202409262211/rules.zip"
+            "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202409302212/rules.zip"
         },
-        "version": "202409262211"
+        "version": "202409302212"
     },
     "wechat-web-devtools-linux_appimage": {
         "cargoLocks": null,
@@ -3192,11 +3192,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-SmrKWfH8GapDn6b4z6LMXuz7PH42eHVcgg1HKsaqw8Y=",
+            "sha256": "sha256-/bn7hQb4A7R9vrk278IEVCG43AYoX5pYannLunybXGY=",
             "type": "url",
-            "url": "https://github.com/msojocs/wechat-web-devtools-linux/releases/download/v1.06.2405020-3/WeChat_Dev_Tools_v1.06.2405020-3_x86_64_linux.AppImage"
+            "url": "https://github.com/msojocs/wechat-web-devtools-linux/releases/download/v1.06.2407120-1/WeChat_Dev_Tools_v1.06.2407120-1_x86_64_linux.AppImage"
         },
-        "version": "1.06.2405020-3"
+        "version": "1.06.2407120-1"
     },
     "wechat-web-devtools-linux_bin": {
         "cargoLocks": null,
@@ -3207,10 +3207,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-RHg2GZDJYtRivemv6sssWp3xY0i979nCyPYpoCaEuQ0=",
+            "sha256": "sha256-NFsrk+srxYmp2Ob8AMXn1oRN/UMuoAZ35xgOZNgPn1U=",
             "type": "url",
-            "url": "https://github.com/msojocs/wechat-web-devtools-linux/releases/download/v1.06.2405020-3/WeChat_Dev_Tools_v1.06.2405020-3_x86_64_linux.tar.gz"
+            "url": "https://github.com/msojocs/wechat-web-devtools-linux/releases/download/v1.06.2407120-1/WeChat_Dev_Tools_v1.06.2407120-1_x86_64_linux.tar.gz"
         },
-        "version": "1.06.2405020-3"
+        "version": "1.06.2407120-1"
     }
+
 }
