@@ -40,7 +40,7 @@ let
     ];
   };
 
-  service-cargo-hash = "sha256-NBeHR6JvdCp06Ug/UEtLY2tu3iCmlsCU0x8umRbJXLU=";
+  service-cargo-hash = "sha256-FeCpzUYeSqpcXF9JS2ZKH3YqpQ1bzf9h/9ZzH6j4D28=";
 
   service = callPackage ./service.nix {
     inherit
