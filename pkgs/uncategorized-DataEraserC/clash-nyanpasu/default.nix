@@ -1,1 +1,1 @@
-import ./clash-nyanpasu.nix
+import ./package.nix

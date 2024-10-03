@@ -182,15 +182,15 @@
   };
   cachyos-kernel-patches = {
     pname = "cachyos-kernel-patches";
-    version = "f6a370866994a6808fe23ce80099295f1fec687b";
+    version = "adac8640245790cfb2677222751ef17e906fa933";
     src = fetchFromGitHub {
       owner = "CachyOS";
       repo = "kernel-patches";
-      rev = "f6a370866994a6808fe23ce80099295f1fec687b";
+      rev = "adac8640245790cfb2677222751ef17e906fa933";
       fetchSubmodules = false;
-      sha256 = "sha256-9d6hxYfVNxPeBX8X9/bZ4NIwHHfS1piK7T51EOPFA2w=";
+      sha256 = "sha256-H/dLMXcW2GACLhJIZx6hVhtFxUNY/xZq3TgdgWX2K28=";
     };
-    date = "2024-09-30";
+    date = "2024-10-01";
   };
   calibre-cops = {
     pname = "calibre-cops";
@@ -578,15 +578,15 @@
   };
   kikoplay-app = {
     pname = "kikoplay-app";
-    version = "2b6d08c0ec4eb1b791f916232149b8cca09c240b";
+    version = "1e9c0a2e0a0b34ce4f8b97c712afacd85708f848";
     src = fetchFromGitHub {
       owner = "KikoPlayProject";
       repo = "KikoPlayApp";
-      rev = "2b6d08c0ec4eb1b791f916232149b8cca09c240b";
+      rev = "1e9c0a2e0a0b34ce4f8b97c712afacd85708f848";
       fetchSubmodules = false;
-      sha256 = "sha256-fxsxn8h5U/No+QZtHMI9vDK7XQCmqTuXCEpHYarCm7E=";
+      sha256 = "sha256-ditVnsOHirCw/ve96c0evBYWG+1YQpsQXht7vgto8/o=";
     };
-    date = "2024-09-17";
+    date = "2024-10-01";
   };
   kikoplay-script = {
     pname = "kikoplay-script";
@@ -648,15 +648,15 @@
   };
   liboqs-unstable = {
     pname = "liboqs-unstable";
-    version = "a5528768a1e7a254707bad1b54d8e2f65c9490d2";
+    version = "7f4c89b26fc2a59dd314950f1663eaff037dff72";
     src = fetchFromGitHub {
       owner = "open-quantum-safe";
       repo = "liboqs";
-      rev = "a5528768a1e7a254707bad1b54d8e2f65c9490d2";
+      rev = "7f4c89b26fc2a59dd314950f1663eaff037dff72";
       fetchSubmodules = false;
-      sha256 = "sha256-BivIjF/yhCoK4ZXG9UBA8fasxoN1W28hVlQ3YCN3EX8=";
+      sha256 = "sha256-Y+NhvYU85saN3ZMmM35erZywJrsvsN5C5gjjmGo1eaA=";
     };
-    date = "2024-09-27";
+    date = "2024-09-30";
   };
   libqcef = {
     pname = "libqcef";
@@ -720,13 +720,13 @@
   };
   linux-xanmod = {
     pname = "linux-xanmod";
-    version = "6.11.0-xanmod1";
+    version = "6.11.1-xanmod1";
     src = fetchFromGitHub {
       owner = "xanmod";
       repo = "linux";
-      rev = "6.11.0-xanmod1";
+      rev = "6.11.1-xanmod1";
       fetchSubmodules = false;
-      sha256 = "sha256-cMT7xqDAwzuJsKSrqdCP+brIrCxgxQ/4fttFxbFiDNI=";
+      sha256 = "sha256-Wev7qAJ0U4AtE8WTJpNGK63WVhcTBD5oPVKcZDTwJXQ=";
     };
   };
   linux-xanmod-6_0 = {
@@ -753,24 +753,24 @@
   };
   linux-xanmod-6_6 = {
     pname = "linux-xanmod-6_6";
-    version = "6.6.52-xanmod1";
+    version = "6.6.53-xanmod1";
     src = fetchFromGitHub {
       owner = "xanmod";
       repo = "linux";
-      rev = "6.6.52-xanmod1";
+      rev = "6.6.53-xanmod1";
       fetchSubmodules = false;
-      sha256 = "sha256-bTsxESXY0uhx9/UjUg9cATC1ErfkxF1gH8TXimYVzX4=";
+      sha256 = "sha256-hNEAwPV2ZFUzWMBDZAVNIcdVR+XrIaQamj+rXERPo8Q=";
     };
   };
   llama-cpp = {
     pname = "llama-cpp";
-    version = "b3849";
+    version = "b3864";
     src = fetchFromGitHub {
       owner = "ggerganov";
       repo = "llama.cpp";
-      rev = "b3849";
+      rev = "b3864";
       fetchSubmodules = false;
-      sha256 = "sha256-omzVjdC2mYspv5iQaK7pzCvVSf28thYW+MiBqzWFOwo=";
+      sha256 = "sha256-OSwKpJs8t/yGn8pKBIg/s/hBVjqiOu/D5cxKwtraIHk=";
     };
   };
   lyrica = {
@@ -916,13 +916,13 @@
   };
   nginx-njs = {
     pname = "nginx-njs";
-    version = "0.8.5";
+    version = "0.8.6";
     src = fetchFromGitHub {
       owner = "nginx";
       repo = "njs";
-      rev = "0.8.5";
+      rev = "0.8.6";
       fetchSubmodules = false;
-      sha256 = "sha256-urn1NMtjj2oqQ30jycrtFom76GLauaoxWkSimL/79Q8=";
+      sha256 = "sha256-EPWx5Qff4DsyV5zM/qcgilBnCMcLLEdwvoVPe0xNd7s=";
     };
   };
   ngx_brotli = {
@@ -1189,34 +1189,34 @@
   };
   qemu-user-static-amd64 = {
     pname = "qemu-user-static-amd64";
-    version = "9.1.0+ds-7";
+    version = "9.1.0+ds-8";
     src = fetchurl {
-      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-7_amd64.deb";
-      sha256 = "sha256-7cvqaiiepzF1Bl2Q2Lf4+EIop4lgOgIlhG0oswD499c=";
+      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-8_amd64.deb";
+      sha256 = "sha256-JxaT2TsGI+ySD1Fbyrm6dUesXFnoPW7QZo7RMmcvGsg=";
     };
   };
   qemu-user-static-arm64 = {
     pname = "qemu-user-static-arm64";
-    version = "9.1.0+ds-7";
+    version = "9.1.0+ds-8";
     src = fetchurl {
-      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-7_arm64.deb";
-      sha256 = "sha256-FoQXc8b7m7pQMpLpsJjPJgQN1fLq0sWuR8pojiMl83w=";
+      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-8_arm64.deb";
+      sha256 = "sha256-a0aHpTdx8x1o1zRp8JTOhMWQDEvIPaHJ8G/BkMw8kBY=";
     };
   };
   qemu-user-static-armhf = {
     pname = "qemu-user-static-armhf";
-    version = "9.1.0+ds-7";
+    version = "9.1.0+ds-8";
     src = fetchurl {
-      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-7_armhf.deb";
-      sha256 = "sha256-Z81HQ0pBiNnwvHzN7BCVAvTn1c+ci8HGv7E+tcA/XXs=";
+      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-8_armhf.deb";
+      sha256 = "sha256-iAtMJ/eQKKvPYVFj6unDniN67tnfoZGk6+hELJE4S2Y=";
     };
   };
   qemu-user-static-i386 = {
     pname = "qemu-user-static-i386";
-    version = "9.1.0+ds-7";
+    version = "9.1.0+ds-8";
     src = fetchurl {
-      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-7_i386.deb";
-      sha256 = "sha256-D9rrAY8X201IJLmoOPwgbjhBg+HWTZEWhzLLZCNxk3s=";
+      url = "http://ftp.debian.org/debian/pool/main/q/qemu/qemu-user_9.1.0+ds-8_i386.deb";
+      sha256 = "sha256-8//kl7JYtfw0qrmzxAdkduDxX9vryp8uFm7DQnabYP4=";
     };
   };
   qhttpengine = {
@@ -1602,6 +1602,46 @@
       sha256 = "sha256-mcqiTqu/KIZ+W9yvZfyFekjRdiVavkHVKVRh0xUytg0=";
     };
   };
+  unigine-heaven = {
+    pname = "unigine-heaven";
+    version = "4.0";
+    src = fetchurl {
+      url = "https://assets.unigine.com/d/Unigine_Heaven-4.0.run";
+      sha256 = "sha256-G7AgSpvZsL2/L+I6oMMhKZBcs4cEAJi4FTMt2zlvNqc=";
+    };
+  };
+  unigine-sanctuary = {
+    pname = "unigine-sanctuary";
+    version = "2.3";
+    src = fetchurl {
+      url = "https://assets.unigine.com/d/Unigine_Sanctuary-2.3.run";
+      sha256 = "sha256-KKi70ctkEm+tx0kjBMWVKMLDrJ1TsPH+CKLDMXA6OdU=";
+    };
+  };
+  unigine-superposition = {
+    pname = "unigine-superposition";
+    version = "1.1";
+    src = fetchurl {
+      url = "https://assets.unigine.com/d/Unigine_Superposition-1.1.run";
+      sha256 = "sha256-zZ634FUbLggErgMn3OfnH0MF8eDcjeD6vshdkc6nH4o=";
+    };
+  };
+  unigine-tropics = {
+    pname = "unigine-tropics";
+    version = "1.3";
+    src = fetchurl {
+      url = "https://assets.unigine.com/d/Unigine_Tropics-1.3.run";
+      sha256 = "sha256-/eA1i42/PMcoBbUJIGS66j7QpZ13oPkOi1Y6Q27TikU=";
+    };
+  };
+  unigine-valley = {
+    pname = "unigine-valley";
+    version = "1.0";
+    src = fetchurl {
+      url = "https://assets.unigine.com/d/Unigine_Valley-1.0.run";
+      sha256 = "sha256-XwyL0kMRGFURgrq79fHCD7FOekB4lpckDcr1RkQ2YPQ=";
+    };
+  };
   vbmeta-disable-verification = {
     pname = "vbmeta-disable-verification";
     version = "v1.0";
@@ -1623,6 +1663,30 @@
       fetchSubmodules = false;
       sha256 = "sha256-5/cFc8JWgwxYm0JQX6aBGhIn2cNvGB4kh/w96P+lTgw=";
     };
+  };
+  vk-hdr-layer = {
+    pname = "vk-hdr-layer";
+    version = "e47dc6da924cd361b0082f5c27fe5e923377bb54";
+    src = fetchFromGitHub {
+      owner = "Zamundaaa";
+      repo = "VK_hdr_layer";
+      rev = "e47dc6da924cd361b0082f5c27fe5e923377bb54";
+      fetchSubmodules = false;
+      sha256 = "sha256-9ENtgS+gqjD19/Zc+TlrfCohp69fY7WZ1AUSWGC56VU=";
+    };
+    date = "2024-04-27";
+  };
+  vkroots = {
+    pname = "vkroots";
+    version = "5106d8a0df95de66cc58dc1ea37e69c99afc9540";
+    src = fetchFromGitHub {
+      owner = "misyltoad";
+      repo = "vkroots";
+      rev = "5106d8a0df95de66cc58dc1ea37e69c99afc9540";
+      fetchSubmodules = false;
+      sha256 = "sha256-SgHFIWjifZ5L10/1RL7lXoX6evS5LsFvFKWMhHEHN0M=";
+    };
+    date = "2024-04-30";
   };
   vpp = {
     pname = "vpp";
