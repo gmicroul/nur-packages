@@ -1753,28 +1753,28 @@
   };
   PiliPalaX = {
     pname = "PiliPalaX";
-    version = "c19ff4ce42aa34e4974130c583f1236b54efba84";
+    version = "2ccfd788e689fd1204ec54a9f53cdc685f4594d4";
     src = fetchFromGitHub {
       owner = "bggRGjQaUbCoE";
       repo = "PiliPalaX";
-      rev = "c19ff4ce42aa34e4974130c583f1236b54efba84";
+      rev = "2ccfd788e689fd1204ec54a9f53cdc685f4594d4";
       fetchSubmodules = true;
-      sha256 = "sha256-lbM3PWuOqeP3ZInFM7qqulFWZFVJ2d4gUcRNFRWBvYk=";
+      sha256 = "sha256-phSjR+qJNKThVbBKUPiloxjx9cMTtqJLlWGHOvwlw64=";
     };
-    date = "2024-10-03";
+    date = "2024-10-10";
   };
   buffybox = {
     pname = "buffybox";
-    version = "1e5ae8f8e5c00dd00e16268f1668cfb9e7c447f9";
+    version = "c683350b9fb944e38cb484f04f98e4e3f85b41a5";
     src = fetchgit {
       url = "https://gitlab.com/postmarketOS/buffybox.git";
-      rev = "1e5ae8f8e5c00dd00e16268f1668cfb9e7c447f9";
+      rev = "c683350b9fb944e38cb484f04f98e4e3f85b41a5";
       fetchSubmodules = true;
       deepClone = false;
       leaveDotGit = false;
-      sha256 = "sha256-A8zVLu6pYR0cVJntv6HRKijfSuvsWC+VV7DQH+Swgds=";
+      sha256 = "sha256-z7siroBDauvs8TxfO/h+5HUU5G5aOWwNUxDaZm80I5A=";
     };
-    date = "2024-09-26";
+    date = "2024-10-05";
   };
   c001apk-flutter = {
     pname = "c001apk-flutter";
@@ -1787,6 +1787,18 @@
       sha256 = "sha256-xEVmSOryTu6EvI3FRqc89mR4X8aLNcH8fY5p12KVMQ8=";
     };
     date = "2024-09-17";
+  };
+  scrcpy-mask = {
+    pname = "scrcpy-mask";
+    version = "8228ffd39be8850ec609e274bd526b01328199a6";
+    src = fetchFromGitHub {
+      owner = "AkiChase";
+      repo = "scrcpy-mask";
+      rev = "8228ffd39be8850ec609e274bd526b01328199a6";
+      fetchSubmodules = true;
+      sha256 = "sha256-spXSamWONZCf7ZHFhrIzdilJi1Heg9ZhfmVqWROVqD0=";
+    };
+    date = "2024-06-11";
   };
   ttyescape = {
     pname = "ttyescape";
@@ -1815,10 +1827,10 @@
   };
   v2ray-rules-dat = {
     pname = "v2ray-rules-dat";
-    version = "202410022213";
+    version = "202410092211";
     src = fetchurl {
-      url = "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202410022213/rules.zip";
-      sha256 = "sha256-29AYo6Hl+5wFUHlxKtMQN1b1heg8aZ5CAqIJmqUXgJo=";
+      url = "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202410092211/rules.zip";
+      sha256 = "sha256-cHLXaaodho4ewbSHuVR6hIImtIwP9WxZc7EAFn5HWqo=";
     };
   };
   wechat-web-devtools-linux_appimage = {

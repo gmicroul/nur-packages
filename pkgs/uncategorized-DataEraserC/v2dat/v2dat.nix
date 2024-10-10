@@ -1,5 +1,9 @@
 # https://github.com/nykma/nur-packages/blob/master/pkgs/v2dat/default.nix
-{ lib, buildGoModule, sources }:
+{
+  lib,
+  buildGoModule,
+  sources,
+}:
 let
   vendorHash = "sha256-ndWasQUHt35D528PyGan6JGXh5TthpOhyJI2xBDn0zI=";
 in

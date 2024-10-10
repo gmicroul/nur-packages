@@ -4,8 +4,6 @@
   rustPlatform,
   libevdev,
   pkg-config,
-  stdenv,
-  dbus,
 }:
 rustPlatform.buildRustPackage rec {
   pname = "hkdm";
@@ -29,14 +27,15 @@ rustPlatform.buildRustPackage rec {
 
   cargoLock = {
     lockFile = ./Cargo.lock;
-    outputHashes = {
-    };
+    outputHashes =
+      {
+      };
   };
   meta = with lib; {
     description = "A lighter-weight hotkey daemon";
     homepage = "https://gitlab.com/postmarketOS/hkdm";
     license = licenses.gpl3Only;
     platforms = platforms.linux;
-    maintainers = [];
+    maintainers = [ ];
   };
 }

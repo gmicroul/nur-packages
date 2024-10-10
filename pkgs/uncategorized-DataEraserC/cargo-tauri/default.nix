@@ -1,0 +1,1 @@
+import ./cargo-tauri.nix

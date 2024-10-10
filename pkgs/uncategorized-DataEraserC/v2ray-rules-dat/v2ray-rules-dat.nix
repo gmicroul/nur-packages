@@ -18,7 +18,7 @@
 #         └── reject-list.txt
 stdenvNoCC.mkDerivation rec {
   inherit (sources.v2ray-rules-dat) pname version src;
-  nativeBuildInputs = [unzip];
+  nativeBuildInputs = [ unzip ];
 
   unpackPhase = ''
     unzip ${src}

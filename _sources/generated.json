@@ -3189,7 +3189,7 @@
     },
     "PiliPalaX": {
         "cargoLocks": null,
-        "date": "2024-10-03",
+        "date": "2024-10-10",
         "extract": null,
         "name": "PiliPalaX",
         "passthru": null,
@@ -3201,15 +3201,15 @@
             "name": null,
             "owner": "bggRGjQaUbCoE",
             "repo": "PiliPalaX",
-            "rev": "c19ff4ce42aa34e4974130c583f1236b54efba84",
-            "sha256": "sha256-lbM3PWuOqeP3ZInFM7qqulFWZFVJ2d4gUcRNFRWBvYk=",
+            "rev": "2ccfd788e689fd1204ec54a9f53cdc685f4594d4",
+            "sha256": "sha256-phSjR+qJNKThVbBKUPiloxjx9cMTtqJLlWGHOvwlw64=",
             "type": "github"
         },
-        "version": "c19ff4ce42aa34e4974130c583f1236b54efba84"
+        "version": "2ccfd788e689fd1204ec54a9f53cdc685f4594d4"
     },
     "buffybox": {
         "cargoLocks": null,
-        "date": "2024-09-26",
+        "date": "2024-10-05",
         "extract": null,
         "name": "buffybox",
         "passthru": null,
@@ -3219,12 +3219,12 @@
             "fetchSubmodules": true,
             "leaveDotGit": false,
             "name": null,
-            "rev": "1e5ae8f8e5c00dd00e16268f1668cfb9e7c447f9",
-            "sha256": "sha256-A8zVLu6pYR0cVJntv6HRKijfSuvsWC+VV7DQH+Swgds=",
+            "rev": "c683350b9fb944e38cb484f04f98e4e3f85b41a5",
+            "sha256": "sha256-z7siroBDauvs8TxfO/h+5HUU5G5aOWwNUxDaZm80I5A=",
             "type": "git",
             "url": "https://gitlab.com/postmarketOS/buffybox.git"
         },
-        "version": "1e5ae8f8e5c00dd00e16268f1668cfb9e7c447f9"
+        "version": "c683350b9fb944e38cb484f04f98e4e3f85b41a5"
     },
     "c001apk-flutter": {
         "cargoLocks": null,
@@ -3245,6 +3245,26 @@
             "type": "github"
         },
         "version": "72f4cf2494db6c8834c4136de70109bc95ed9374"
+    },
+    "scrcpy-mask": {
+        "cargoLocks": null,
+        "date": "2024-06-11",
+        "extract": null,
+        "name": "scrcpy-mask",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "AkiChase",
+            "repo": "scrcpy-mask",
+            "rev": "8228ffd39be8850ec609e274bd526b01328199a6",
+            "sha256": "sha256-spXSamWONZCf7ZHFhrIzdilJi1Heg9ZhfmVqWROVqD0=",
+            "type": "github"
+        },
+        "version": "8228ffd39be8850ec609e274bd526b01328199a6"
     },
     "ttyescape": {
         "cargoLocks": null,
@@ -3294,11 +3314,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-29AYo6Hl+5wFUHlxKtMQN1b1heg8aZ5CAqIJmqUXgJo=",
+            "sha256": "sha256-cHLXaaodho4ewbSHuVR6hIImtIwP9WxZc7EAFn5HWqo=",
             "type": "url",
-            "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202410022213/rules.zip"
+            "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202410092211/rules.zip"
         },
-        "version": "202410022213"
+        "version": "202410092211"
     },
     "wechat-web-devtools-linux_appimage": {
         "cargoLocks": null,

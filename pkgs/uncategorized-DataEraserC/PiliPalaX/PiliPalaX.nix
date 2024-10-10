@@ -36,7 +36,7 @@ flutter.buildFlutterApplication rec {
     icon = pname;
     comment = pname;
     desktopName = pname;
-    categories = ["Network"];
+    categories = [ "Network" ];
     extraConfig = {
       "Name[en_US]" = pname;
       "Name[zh_CN]" = "PiliPalaX";

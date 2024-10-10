@@ -771,3 +771,8 @@ fetch.url = "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$
 src.git = "https://github.com/urlesistiana/v2dat"
 fetch.github = "urlesistiana/v2dat"
 git.fetchSubmodules = true
+
+[scrcpy-mask]
+src.git = "https://github.com/AkiChase/scrcpy-mask"
+fetch.github = "AkiChase/scrcpy-mask"
+git.fetchSubmodules = true

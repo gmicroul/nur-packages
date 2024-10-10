@@ -1,12 +1,12 @@
 {
-  callPackage,
-  ifNotCI,
   loadPackages,
   ...
 }:
 let
-  packages = loadPackages ./. {
-  };
+  packages =
+    loadPackages ./.
+      {
+      };
 in
 packages
 // {

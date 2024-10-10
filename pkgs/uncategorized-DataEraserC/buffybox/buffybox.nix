@@ -1,19 +1,18 @@
-{ lib
-, sources
-, nixosTests
-, stdenv
-, fetchFromGitLab
-, inih
-, libdrm
-, libinput
-, libxkbcommon
-, meson
-, ninja
-, pkg-config
-, scdoc
+{
+  lib,
+  sources,
+  stdenv,
+  inih,
+  libdrm,
+  libinput,
+  libxkbcommon,
+  meson,
+  ninja,
+  pkg-config,
+  scdoc,
 }:
 
-stdenv.mkDerivation (finalAttrs: {
+stdenv.mkDerivation (_finalAttrs: {
   inherit (sources.buffybox) pname version src;
 
   nativeBuildInputs = [

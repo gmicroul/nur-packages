@@ -1,0 +1,41 @@
+{
+  "package": {
+    "productName": "scrcpy-mask",
+    "version": "0.6.0"
+  },
+  "build": {
+    "beforeDevCommand": "pnpm dev",
+    "devPath": "http://localhost:1420",
+    "beforeBuildCommand": "pnpm build",
+    "distDir": "../dist"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "scrcpy-mask",
+        "transparent": true,
+        "decorations": false
+      }
+    ],
+    "macOSPrivateApi": true,
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "identifier": "com.akichase.mask",
+      "active": true,
+      "targets": "all",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "resources": [
+        "resource/default-key-config.json",
+        "resource/scrcpy-mask-server-v2.4"
+      ]
+    }
+  }
+}
