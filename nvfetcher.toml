@@ -753,6 +753,6 @@ fetch.github = "urlesistiana/v2dat"
 git.fetchSubmodules = true
 
 [scrcpy-mask]
-src.git = "https://github.com/AkiChase/scrcpy-mask"
-fetch.github = "AkiChase/scrcpy-mask"
+src.git = "https://github.com/DataEraserC/scrcpy-mask"
+fetch.github = "DataEraserC/scrcpy-mask"
 git.fetchSubmodules = true

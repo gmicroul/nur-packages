@@ -27,7 +27,7 @@
   "legacyPackages.x86_64-linux.PiliPalaX": {
     "description": "PiliPalaX",
     "pname": "PiliPalaX-unstable",
-    "version": "2024-10-10"
+    "version": "2024-10-11"
   },
   "legacyPackages.x86_64-linux.XiaoMiToolV2": {
     "description": "",
@@ -311,8 +311,8 @@
   },
   "legacyPackages.x86_64-linux.cargo-tauri": {
     "description": "Build smaller, faster, and more secure desktop applications with a web frontend",
-    "pname": "tauri-tauri-v2.0.0-rc.2",
-    "version": ""
+    "pname": "tauri",
+    "version": "2.0.1"
   },
   "legacyPackages.x86_64-linux.chmlib-utils": {
     "description": "Library for dealing with Microsoft ITSS/CHM format files",
@@ -3397,7 +3397,7 @@
   "legacyPackages.x86_64-linux.scrcpy-mask-git": {
     "description": "scrcpy-mask",
     "pname": "scrcpy-mask-unstable",
-    "version": "2024-06-11"
+    "version": "2024-10-11"
   },
   "legacyPackages.x86_64-linux.sgx-software-enable": {
     "description": "This application will enable Intel SGX on Linux systems where the BIOS supports Intel SGX, but does not provide an explicit option to enable it. These systems can only enable Intel SGX via the \"software enable\" procedure.",
@@ -3547,7 +3547,7 @@
   "legacyPackages.x86_64-linux.v2ray-rules-dat": {
     "description": "V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，兼容 Shadowsocks-windows、Xray-core、Trojan-Go、leaf 和 hysteria。Enhanced edition of V2Ray rules dat files, compatible with Xray-core, Shadowsocks-windows, Trojan-Go, leaf and hysteria.",
     "pname": "v2ray-rules-dat",
-    "version": "202410092211"
+    "version": "202410102212"
   },
   "legacyPackages.x86_64-linux.vbmeta-disable-verification": {
     "description": "Patch Android vbmeta image and disable verification flags inside.",
@@ -3677,7 +3677,7 @@
   "packages.x86_64-linux.PiliPalaX": {
     "description": "PiliPalaX",
     "pname": "PiliPalaX-unstable",
-    "version": "2024-10-10"
+    "version": "2024-10-11"
   },
   "packages.x86_64-linux.XiaoMiToolV2": {
     "description": "",
@@ -3781,8 +3781,8 @@
   },
   "packages.x86_64-linux.cargo-tauri": {
     "description": "Build smaller, faster, and more secure desktop applications with a web frontend",
-    "pname": "tauri-tauri-v2.0.0-rc.2",
-    "version": ""
+    "pname": "tauri",
+    "version": "2.0.1"
   },
   "packages.x86_64-linux.chmlib-utils": {
     "description": "Library for dealing with Microsoft ITSS/CHM format files",
@@ -4367,7 +4367,7 @@
   "packages.x86_64-linux.scrcpy-mask-git": {
     "description": "scrcpy-mask",
     "pname": "scrcpy-mask-unstable",
-    "version": "2024-06-11"
+    "version": "2024-10-11"
   },
   "packages.x86_64-linux.sgx-software-enable": {
     "description": "This application will enable Intel SGX on Linux systems where the BIOS supports Intel SGX, but does not provide an explicit option to enable it. These systems can only enable Intel SGX via the \"software enable\" procedure.",
@@ -4477,7 +4477,7 @@
   "packages.x86_64-linux.v2ray-rules-dat": {
     "description": "V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，兼容 Shadowsocks-windows、Xray-core、Trojan-Go、leaf 和 hysteria。Enhanced edition of V2Ray rules dat files, compatible with Xray-core, Shadowsocks-windows, Trojan-Go, leaf and hysteria.",
     "pname": "v2ray-rules-dat",
-    "version": "202410092211"
+    "version": "202410102212"
   },
   "packages.x86_64-linux.vbmeta-disable-verification": {
     "description": "Patch Android vbmeta image and disable verification flags inside.",

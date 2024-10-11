@@ -1,1 +1,1 @@
-import ./cargo-tauri.nix
+import ./package.nix
