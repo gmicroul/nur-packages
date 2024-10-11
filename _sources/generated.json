@@ -3127,6 +3127,26 @@
         },
         "version": "f4ba115e0b0eaecde545e5f37db6aa18917d8f4b"
     },
+    "LiteLoaderQQNT": {
+        "cargoLocks": null,
+        "date": "2024-09-26",
+        "extract": null,
+        "name": "LiteLoaderQQNT",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "deepClone": false,
+            "fetchSubmodules": true,
+            "leaveDotGit": false,
+            "name": null,
+            "owner": "LiteLoaderQQNT",
+            "repo": "LiteLoaderQQNT",
+            "rev": "3e8bcb3aa3af4532c52eb5a77626d8573980e7b1",
+            "sha256": "sha256-WQoE1Gyjqtba6K0jihkpe/K7lF/alFUIiEuh1EZdzgM=",
+            "type": "github"
+        },
+        "version": "3e8bcb3aa3af4532c52eb5a77626d8573980e7b1"
+    },
     "PiliPalaX": {
         "cargoLocks": null,
         "date": "2024-10-11",

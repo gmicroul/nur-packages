@@ -4,17 +4,11 @@
   buildFHSUserEnv,
   pkg-config,
   qq,
+  sources,
   ...
 }:
 let
-  LiteLoaderQQNT_REV = "af1d19abd92d11f2d0316a940592593f3b254705";
-  LiteLoaderQQNT_URL = "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT";
-  LiteLoaderQQNT_SRC = fetchGit {
-    url = LiteLoaderQQNT_URL;
-    rev = LiteLoaderQQNT_REV;
-    allRefs = true;
-    submodules = true;
-  };
+  LiteLoaderQQNT_SRC = sources.LiteLoaderQQNT.src;
   fhs =
     # create a fhs environment by command `fhs`, so we can run non-nixos packages in nixos!
     let
@@ -41,27 +35,19 @@ in
       runtimeDependencies ? [ ],
       # buildInputs ? [ ],
       installPhase,
+      version,
       ...
     }:
     {
+      pname = "llqqnt";
+      version = "${version}_${sources.LiteLoaderQQNT.version}";
       runtimeDependencies = runtimeDependencies ++ [ fhs ];
       installPhase =
-        builtins.replaceStrings
-          [
-            ''
-              makeShellWrapper $out/opt/QQ/qq $out/bin/qq \
-            ''
-            "--enable-features=WaylandWindowDecorations"
-          ]
-          [
-            ''
-              makeShellWrapper $out/opt/QQ/qq $out/bin/llqqnt \
-                --prefix LITELOADERQQNT_PROFILE_TEST : ''${XDG_DATA_HOME:-~/.local/share}/LLQQNT \
-                --prefix LITELOADERQQNT_PROFILE_TEST2 : ~/.local/share/LLQQNT \
-            ''
-            "--enable-features=WaylandWindowDecorations --enable-wayland-ime"
-          ]
-          installPhase;
+        installPhase
+        + ''
+          makeShellWrapper $out/bin/qq  $out/bin/llqqnt \
+            --prefix LITELOADERQQNT_PROFILE : ''${XDG_DATA_HOME:-~/.local/share}/LLQQNT \
+        '';
       postInstall = ''
         # Patch QQ
         sed -i "1s@^@require(String.raw\`${LiteLoaderQQNT_SRC}\`);\n@" $out/opt/QQ/resources/app/app_launcher/index.js

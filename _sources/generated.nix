@@ -1719,6 +1719,18 @@
     };
     date = "2024-04-22";
   };
+  LiteLoaderQQNT = {
+    pname = "LiteLoaderQQNT";
+    version = "3e8bcb3aa3af4532c52eb5a77626d8573980e7b1";
+    src = fetchFromGitHub {
+      owner = "LiteLoaderQQNT";
+      repo = "LiteLoaderQQNT";
+      rev = "3e8bcb3aa3af4532c52eb5a77626d8573980e7b1";
+      fetchSubmodules = true;
+      sha256 = "sha256-WQoE1Gyjqtba6K0jihkpe/K7lF/alFUIiEuh1EZdzgM=";
+    };
+    date = "2024-09-26";
+  };
   PiliPalaX = {
     pname = "PiliPalaX";
     version = "39a63cf5ce155fd6f9beb238740435dc45402d2f";

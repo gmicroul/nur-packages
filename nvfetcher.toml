@@ -756,3 +756,8 @@ git.fetchSubmodules = true
 src.git = "https://github.com/DataEraserC/scrcpy-mask"
 fetch.github = "DataEraserC/scrcpy-mask"
 git.fetchSubmodules = true
+
+[LiteLoaderQQNT]
+src.git = "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT"
+fetch.github = "LiteLoaderQQNT/LiteLoaderQQNT"
+git.fetchSubmodules = true
