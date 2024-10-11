@@ -39,22 +39,25 @@ in
       ...
     }:
     {
-      pname = "llqqnt";
-      version = "${version}_${sources.LiteLoaderQQNT.version}";
+      version = "qq=${version}+llqqnt_rev=${sources.LiteLoaderQQNT.version}";
       runtimeDependencies = runtimeDependencies ++ [ fhs ];
       installPhase =
         installPhase
         + ''
-          makeShellWrapper $out/bin/qq  $out/bin/llqqnt \
-            --prefix LITELOADERQQNT_PROFILE : ''${XDG_DATA_HOME:-~/.local/share}/LLQQNT \
+          mv $out/bin/qq $out/bin/origin_qq
+          mv $out/share/applications/qq.desktop $out/share/applications/llqqnt.desktop
+          makeShellWrapper $out/bin/origin_qq  $out/bin/llqqnt \
+            --prefix LITELOADERQQNT_PROFILE : "''${LITELOADERQQNT_PROFILE:-''${XDG_DATA_HOME:-''${HOME:-~}/.local/share}/LLQQNT}"
+
+          # Patch QQ
+          echo "require(String.raw\`${LiteLoaderQQNT_SRC}\`)" > $out/opt/resources/app/app_launcher/llqqnt.js
+
+          sed -i 's#"main": ".*"#"main": "./app_launcher/llqqnt.js"#' $out/opt/resources/app/package.json
+
+          # Use FHS environment run Patched QQ
+          # sed -i "s@^Exec=.*@Exec=${fhs}/bin/fhs -c 'LITELOADERQQNT_PROFILE=~/.local/share/LLQQNT $out/bin/llqqnt %U'@g" $out/share/applications/llqqnt.desktop
+          sed -i "s@^Exec=.*@Exec=${fhs}/bin/fhs -c '$out/bin/llqqnt %U'@g" $out/share/applications/llqqnt.desktop
+          sed -i "s@^Name=.*@Name=LLQQNT@g" $out/share/applications/llqqnt.desktop
         '';
-      postInstall = ''
-        # Patch QQ
-        sed -i "1s@^@require(String.raw\`${LiteLoaderQQNT_SRC}\`);\n@" $out/opt/QQ/resources/app/app_launcher/index.js
-        mkdir -vp $out/opt/QQ/resources/app/application/
-        cp -f ${LiteLoaderQQNT_SRC}/src/preload.js $out/opt/QQ/resources/app/application/
-        # Use FHS environment run Patched QQ
-        sed -i "s@^Exec=.*@Exec=${fhs}/bin/fhs -c 'LITELOADERQQNT_PROFILE=~/.local/share/LLQQNT $out/bin/llqqnt %U'@g" $out/share/applications/qq.desktop
-      '';
     }
   )
