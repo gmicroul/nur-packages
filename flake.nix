@@ -125,27 +125,27 @@
           ];
         };
 
-        perSystem =
-          { pkgs, system, ... }:
-          let
-            ptr = {
-             # // LaphaeL-aicmd = inputs.LaphaeL-aicmd.packages.${pkgs.system}.laphael_aicmd;
-            };
-          in
-          {
-            packages =
-              import ./pkgs null {
-                inherit inputs pkgs;
-                pkgs-22_11 = pkgsForSystem-22_11 system;
-              }
-              // ptr;
-            legacyPackages =
-              import ./pkgs uncategorized-DataErase {
-                inherit inputs pkgs;
-                pkgs-22_11 = pkgsForSystem-22_11 system;
-              }
-              // ptr;
-          };
+       # perSystem =
+       #   { pkgs, system, ... }:
+       #   let
+       #     ptr = {
+       #      # // LaphaeL-aicmd = inputs.LaphaeL-aicmd.packages.${pkgs.system}.laphael_aicmd;
+       #     };
+       #   in
+       #   {
+       #     packages =
+       #       import ./pkgs null {
+       #         inherit inputs pkgs;
+       #         pkgs-22_11 = pkgsForSystem-22_11 system;
+       #       }
+       #       // ptr;
+       #     legacyPackages =
+       #       import ./pkgs uncategorized-DataErase {
+       #         inherit inputs pkgs;
+       #         pkgs-22_11 = pkgsForSystem-22_11 system;
+       #       }
+       #       // ptr;
+       #   };
       }
     );
 }
