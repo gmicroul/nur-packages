@@ -140,7 +140,7 @@
               }
               // ptr;
             legacyPackages =
-              import ./pkgs legacy {
+              import ./pkgs "uncategorized-DataErase" {
                 inherit inputs pkgs;
                 pkgs-22_11 = pkgsForSystem-22_11 system;
               }
