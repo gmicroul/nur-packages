@@ -205,7 +205,7 @@
         "type": "github"
       }
     },
-    "nixpkgs-24_05": {
+    "nixpkgs-22_11": {
       "locked": {
         "lastModified": 1728328465,
         "narHash": "sha256-a0a0M1TmXMK34y3M0cugsmpJ4FJPT/xsblhpiiX1CXo=",
@@ -216,7 +216,7 @@
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-24.05",
+        "ref": "nixos-22.11",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -244,7 +244,7 @@
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-24.05",
+        "ref": "nixos-22.11",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -325,7 +325,7 @@
         "flake-parts": "flake-parts",
         "nix-index-database": "nix-index-database",
         "nixpkgs": "nixpkgs",
-        "nixpkgs-24_05": "nixpkgs-24_05",
+        "nixpkgs-22_11": "nixpkgs-22_11",
         "nvfetcher": "nvfetcher",
         "pre-commit-hooks-nix": "pre-commit-hooks-nix",
         "treefmt-nix": "treefmt-nix_2"
