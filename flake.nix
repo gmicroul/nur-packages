@@ -129,7 +129,7 @@
           { pkgs, system, ... }:
           let
             ptr = {
-              // LaphaeL-aicmd = inputs.LaphaeL-aicmd.packages.${pkgs.system}.laphael_aicmd;
+             # // LaphaeL-aicmd = inputs.LaphaeL-aicmd.packages.${pkgs.system}.laphael_aicmd;
             };
           in
           {
