@@ -94,11 +94,11 @@
               };
             }
             // (builtins.listToAttrs (
-              builtins.map (s: {
-                name = "pinnedNixpkgs.${s}";
-                value = _final: _prev: self.legacyPackages.${s};
-              }) systems
-            ));
+            //  builtins.map (s: {
+            //    name = "pinnedNixpkgs.${s}";
+            //    value = _final: _prev: self.legacyPackages.${s};
+            //  }) systems
+            //));
 
           inherit flakeModules;
 
