@@ -121,8 +121,7 @@
             "electron-11.5.0"
             "electron-19.1.9"
             "openssl-1.1.1w"
-            "python-2.7.18.7"
           ];
         };
-};
+}
 }
